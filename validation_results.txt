@@ -1,0 +1,594 @@
+==================================================
+SUMMARY
+==================================================
+Total Files Checked: 194
+Passed: 194
+Failed: 0
+==================================================
+==================================================
+GEOJSON VALIDATION REPORT
+Date: 2026-07-02T10:06:24.732Z
+Total Files Found: 194
+==================================================
+
+[PASS] apollo-19a162a8233-2100699318.geojson
+       Features: 119
+
+[PASS] apollo-19a19c219f4-2100699318.geojson
+       Features: 119
+
+[PASS] apollo-19a19c3d109-2100699319.geojson
+       Features: 22
+
+[PASS] apollo-19a19c50879-2100699120.geojson
+       Features: 163
+
+[PASS] apollo-19a19c5efcd-2100698489.geojson
+       Features: 163
+
+[PASS] apollo-19a19c6d1a6-2100697970.geojson
+       Features: 104
+
+[PASS] apollo-19a19c7914a-2100700278.geojson
+       Features: 82
+
+[PASS] apollo-19a19c81626-2100700144.geojson
+       Features: 259
+
+[PASS] apollo-19a19c8ccc5-2100698603.geojson
+       Features: 163
+
+[PASS] apollo-19a19c95678-2100698336.geojson
+       Features: 82
+
+[PASS] apollo-19a19c9d6e0-2100698187.geojson
+       Features: 82
+
+[PASS] apollo-19a19ca885d-2100698186.geojson
+       Features: 104
+
+[PASS] apollo-19a19caeedf-2100697735.geojson
+       Features: 84
+
+[PASS] apollo-19a19cc24e4-2100697216.geojson
+       Features: 120
+
+[PASS] apollo-19a19ccbc48-2100697215.geojson
+       Features: 23
+
+[PASS] apollo-19a19cdb23a-2100696806.geojson
+       Features: 129
+
+[PASS] apollo-19a19ce9747-2100703547.geojson
+       Features: 131
+
+[PASS] apollo-19a19cf834a-2100696533.geojson
+       Features: 127
+
+[PASS] apollo-19a19d1bad7-2100703258.geojson
+       Features: 131
+
+[PASS] apollo-19a19d2368c-2100703154.geojson
+       Features: 131
+
+[PASS] apollo-19a19d32ad4-2100703153.geojson
+       Features: 131
+
+[PASS] apollo-19a19d3bbfe-2100701548.geojson
+       Features: 131
+
+[PASS] apollo-19a19d6ada0-2100701546.geojson
+       Features: 131
+
+[PASS] apollo-19a19d74ddc-2100700951.geojson
+       Features: 131
+
+[PASS] apollo-19a19d7e5a5-2100700807.geojson
+       Features: 131
+
+[PASS] apollo-19a19d8b328-2100700629.geojson
+       Features: 131
+
+[PASS] apollo-19a19d9c76c-2100700582.geojson
+       Features: 131
+
+[PASS] apollo-19a19db7876-2100700473.geojson
+       Features: 82
+
+[PASS] apollo-19a19dcf3a8-2100700337.geojson
+       Features: 82
+
+[PASS] apollo-19a19dd75dc-2100700336.geojson
+       Features: 108
+
+[PASS] apollo-19a19de0ced-2100700089.geojson
+       Features: 26
+
+[PASS] apollo-19a19dea08a-2100700086.geojson
+       Features: 38
+
+[PASS] apollo-19a19e07c4a-2100704272.geojson
+       Features: 29
+
+[PASS] apollo-19a19e16f44-2100699507.geojson
+       Features: 120
+
+[PASS] apollo-19a19e23677-2100699127.geojson
+       Features: 96
+
+[PASS] apollo-19a19e2f4d8-2100698488.geojson
+       Features: 90
+
+[PASS] apollo-19a19e396ca-2100698339.geojson
+       Features: 95
+
+[PASS] apollo-19a19e42bcc-2100698338.geojson
+       Features: 30
+
+[PASS] apollo-19a19e486aa-2100697969.geojson
+       Features: 47
+
+[PASS] apollo-19a19e4db14-2100697965.geojson
+       Features: 30
+
+[PASS] apollo-19a19e550ab-2100697742.geojson
+       Features: 100
+
+[PASS] apollo-19a19e5b377-2100697737.geojson
+       Features: 120
+
+[PASS] apollo-19a19e69295-2100697569.geojson
+       Features: 69
+
+[PASS] apollo-19a19e73795-2100697381.geojson
+       Features: 186
+
+[PASS] apollo-19a19e7c1c4-2100697214-.geojson
+       Features: 165
+
+[PASS] apollo-19a19e816b2-2100697209.geojson
+       Features: 102
+
+[PASS] apollo-19a19eb7edc-2100696673.geojson
+       Features: 110
+
+[PASS] apollo-19a19ebc6af-2100696671.geojson
+       Features: 33
+
+[PASS] apollo-19a19ec172d-2100704122.geojson
+       Features: 66
+
+[PASS] apollo-19a19ed38a6-2100703259.geojson
+       Features: 147
+
+[PASS] apollo-19a19eddd35-2100700791.geojson
+       Features: 115
+
+[PASS] apollo-19a19ee30db-2100700790.geojson
+       Features: 96
+
+[PASS] apollo-19a19ee7a28-2100700627.geojson
+       Features: 47
+
+[PASS] apollo-19a19eeb7ba-2100700173.geojson
+       Features: 7
+
+[PASS] apollo-19a19ef06d7-2100699900.geojson
+       Features: 94
+
+[PASS] apollo-19a2437107b-2100705269.geojson
+       Features: 92
+
+[PASS] apollo-19a243bc657-2100705063.geojson
+       Features: 157
+
+[PASS] apollo-19a243ca014-2100705049.geojson
+       Features: 23
+
+[PASS] apollo-19a243d2a34-2100704930.geojson
+       Features: 76
+
+[PASS] apollo-19a243e687e-2100704494.geojson
+       Features: 25
+
+[PASS] apollo-19a243f1423-2100704656.geojson
+       Features: 46
+
+[PASS] apollo-19a244030f0-2100705356.geojson
+       Features: 98
+
+[PASS] apollo-19a2442422d-2100705278.geojson
+       Features: 302
+
+[PASS] apollo-19a38dd4d51-2100705799.geojson
+       Features: 218
+
+[PASS] apollo-19a38ddea08-2100705785.geojson
+       Features: 33
+
+[PASS] apollo-19a38defb58-2100705961.geojson
+       Features: 32
+
+[PASS] apollo-19a3920df18-2100706107.geojson
+       Features: 243
+
+[PASS] apollo-19a3921934b-2100706280.geojson
+       Features: 192
+
+[PASS] apollo-19a5d6eb7d9-2100693243.geojson
+       Features: 71
+
+[PASS] apollo-19a5d7183aa-2100693246.geojson
+       Features: 72
+
+[PASS] apollo-19a5d755be4-2100694428.geojson
+       Features: 132
+
+[PASS] apollo-19a5d783dfe-2100694433.geojson
+       Features: 114
+
+[PASS] apollo-19a5d7d40db-2100693050.geojson
+       Features: 93
+
+[PASS] apollo-19a5d7e32db-2100699227.geojson
+       Features: 1686
+
+[PASS] apollo-19a5d839700-2100693728.geojson
+       Features: 187
+
+[PASS] apollo-19a5d8674d2-2100696147.geojson
+       Features: 143
+
+[PASS] apollo-19a5d8d29aa-2100696150.geojson
+       Features: 121
+
+[PASS] apollo-19a5d95ab3d-2100693051.geojson
+       Features: 162
+
+[PASS] apollo-19a5d97b9c1-2100693729.geojson
+       Features: 140
+
+[PASS] apollo-19a5daa70d1-2100696418.geojson
+       Features: 1369
+
+[PASS] apollo-19a5db2ab72-2100693042.geojson
+       Features: 2047
+
+[PASS] apollo-19a5dbaded1-2100706791.geojson
+       Features: 93
+
+[PASS] apollo-19a5dbb2fa9-2100707088.geojson
+       Features: 242
+
+[PASS] apollo-19a5dbbc4c2-2100706790.geojson
+       Features: 185
+
+[PASS] apollo-19a5dbc3a84-2100706623.geojson
+       Features: 139
+
+[PASS] apollo-19a5dbc7dba-2100707086.geojson
+       Features: 7
+
+[PASS] apollo-19a5dbcc09d-2100707085.geojson
+       Features: 84
+
+[PASS] apollo-19a5dbd6ccc-2100706965.geojson
+       Features: 84
+
+[PASS] apollo-19a5dbe22dd-2100706395.geojson
+       Features: 85
+
+[PASS] apollo-19a5dc3909d-2100693044.geojson
+       Features: 1369
+
+[PASS] apollo-19a5dcc4e1e-2100695584.geojson
+       Features: 825
+
+[PASS] apollo-19a5dcedc0a-2100697956.geojson
+       Features: 1369
+
+[PASS] apollo-19a5dd46c2e-2100699230.geojson
+       Features: 1237
+
+[PASS] apollo-19a72d20347-2100707243.geojson
+       Features: 30
+
+[PASS] apollo-19a75df8b79-HG_SCL_20250804_2100693081.geojson
+       Features: 1423
+
+[PASS] apollo-19a75e2468a-HG_KBQ_20250811_2100693048.geojson
+       Features: 2977
+
+[PASS] apollo-19a7bdf67f5-HG_KBQ_20250809_2100693046.geojson
+       Features: 5399
+
+[PASS] apollo-19a7be2c12b-HG_KBQ_20250808_2100693045.geojson
+       Features: 5399
+
+[PASS] apollo-19a7be52ce5-HG_KBQ_20250807_2100693047.geojson
+       Features: 5399
+
+[PASS] apollo-19a7be8c0c2-HG_SCL_20250815_2100693112.geojson
+       Features: 1833
+
+[PASS] apollo-19a7bebd833-HG_SDQ_20250729_2100693077.geojson
+       Features: 1111
+
+[PASS] apollo-19a7bee460f-HG_SDQ_20250730_2100693070.geojson
+       Features: 1026
+
+[PASS] apollo-19a7c1fb334-HG_KBQ_20250825_2100693553.geojson
+       Features: 2825
+
+[PASS] apollo-19a7c2826ee-HG_KBQ_20250826_2100694413.geojson
+       Features: 2825
+
+[PASS] apollo-19a7c2b7748-HG_KBQ_20250827_2100693562.geojson
+       Features: 5345
+
+[PASS] apollo-19a7c2fbc39-HG_SBG_20250717_2100693569.geojson
+       Features: 1648
+
+[PASS] apollo-19a7c35e4a6-HG_SCL_20250908_2100693582.geojson
+       Features: 2364
+
+[PASS] apollo-19a7c3839fb-HG_KBQ_20250901_2100694415.geojson
+       Features: 2306
+
+[PASS] apollo-19a7c3a7531-HG_SDQ_20250901_2100694530.geojson
+       Features: 1655
+
+[PASS] apollo-19a7c3d82cb-HG_SBG_20250809_2100693571.geojson
+       Features: 2174
+
+[PASS] apollo-19a7c4027e8-HG_SCL_20250911_2100693583.geojson
+       Features: 2048
+
+[PASS] apollo-19a7c42f16d-HG_SDQ_20250912_2100694528.geojson
+       Features: 2279
+
+[PASS] apollo-19a7c4675b1-HG_SDQ_20250913_2100694529.geojson
+       Features: 1315
+
+[PASS] apollo-19a7c590096-HG_SCL_20250923_2100695291.geojson
+       Features: 2894
+
+[PASS] apollo-19a7c5b1d9c-HG_SCL_20250930_2100695287.geojson
+       Features: 3695
+
+[PASS] apollo-19a7c5cd18e-HG_KBQ_20250919_2100695753.geojson
+       Features: 4040
+
+[PASS] apollo-19a7c5ebd8c-HG_KBQ_20250923_2100695754.geojson
+       Features: 2033
+
+[PASS] apollo-19a7c605fb9-HG_KBQ_20250922_2100695757.geojson
+       Features: 3422
+
+[PASS] apollo-19a7c6256c2-HG_KBQ_20250924_2100695756-.geojson
+       Features: 2033
+
+[PASS] apollo-19a7c640b31-HG_SDQ_20250926_2100697118.geojson
+       Features: 1058
+
+[PASS] apollo-19a7c6b2ce0-HG_SBG_20251002_2100697122.geojson
+       Features: 1525
+
+[PASS] apollo-19a7c6d919a-HG_SBG_20251004_2100697125.geojson
+       Features: 3127
+
+[PASS] apollo-19a9653eebb-2100708766.geojson
+       Features: 170
+
+[PASS] apollo-19a96547d09-2100708276.geojson
+       Features: 158
+
+[PASS] apollo-19a96553245-2100707970.geojson
+       Features: 27
+
+[PASS] apollo-19a9655a7db-2100707811.geojson
+       Features: 1
+
+[PASS] apollo-19a96565529-2100707592.geojson
+       Features: 5
+
+[PASS] apollo-19a9658308f-2100708176.geojson
+       Features: 80
+
+[PASS] apollo-19a9658e375-2100707584.geojson
+       Features: 162
+
+[PASS] apollo-19a9659d822-2100707542.geojson
+       Features: 91
+
+[PASS] apollo-19a966980d4-2100705719.geojson
+       Features: 225
+
+[PASS] apollo-19a9669fe82-2100705939.geojson
+       Features: 122
+
+[PASS] apollo-19a966af997-2100706102.geojson
+       Features: 110
+
+[PASS] apollo-19a9acf4485-2100697130.geojson
+       Features: 106
+
+[PASS] apollo-19aa58d7d3e-2100705371.geojson
+       Features: 158
+
+[PASS] apollo-19aa58e35d6-2100706114.geojson
+       Features: 60
+
+[PASS] apollo-19aa58ef7fc-2100706468.geojson
+       Features: 128
+
+[PASS] apollo-19ab505c006-2100708175.geojson
+       Features: 120
+
+[PASS] apollo-19ac37eb867-2100700713.geojson
+       Features: 2311
+
+[PASS] apollo-19ac3825045-2100700712-.geojson
+       Features: 2311
+
+[PASS] apollo-19ac474ce98-2100710856.geojson
+       Features: 3
+
+[PASS] apollo-19ac4751a11-2100710552.geojson
+       Features: 2
+
+[PASS] apollo-19ac4759055-2100708659.geojson
+       Features: 131
+
+[PASS] apollo-19ac4760092-2100709198.geojson
+       Features: 212
+
+[PASS] apollo-19ac4765fc9-2100710069.geojson
+       Features: 57
+
+[PASS] apollo-19ac476cb1b-2100709531.geojson
+       Features: 118
+
+[PASS] apollo-19ac478770b-2100709864.geojson
+       Features: 216
+
+[PASS] apollo-19ac479ddcc-2100709774.geojson
+       Features: 191
+
+[PASS] apollo-19ac47a4708-2100709576.geojson
+       Features: 135
+
+[PASS] apollo-19ac47ac5c4-2100708489.geojson
+       Features: 168
+
+[PASS] apollo-19ac47bf4b1-2100708601.geojson
+       Features: 126
+
+[PASS] apollo-19ac47d4c83-2100707966.geojson
+       Features: 122
+
+[PASS] apollo-19ac47ddc23-2100708463.geojson
+       Features: 129
+
+[PASS] apollo-19acd509c94-APOLLO-SI-247.geojson
+       Features: 228
+
+[PASS] apollo-19acd69428a-Geojson-Apollo-SI-249.geojson
+       Features: 211
+
+[PASS] apollo-19acd779706-APOLLO-SI-279.geojson
+       Features: 334
+
+[PASS] apollo-19acd79a0a8-Apollo-SI-280.geojson
+       Features: 396
+
+[PASS] apollo-19acd811a39-APOLLO-SI-305.geojson
+       Features: 287
+
+[PASS] apollo-19acd82c23b-Apollo-SI-306.geojson
+       Features: 229
+
+[PASS] apollo-19acd87afbd-APOLLO-SI-250.geojson
+       Features: 477
+
+[PASS] apollo-19acd88cda0-Apollo-SI-251.geojson
+       Features: 269
+
+[PASS] apollo-19acd8ab25c-APOLLO-SI-277.geojson
+       Features: 144
+
+[PASS] apollo-19acd8c4059-APOLLO-SI-278.geojson
+       Features: 335
+
+[PASS] apollo-19acd8f07e5-Apollo-SI-318.geojson
+       Features: 64
+
+[PASS] apollo-19acd91f898-Apollo-SI-319.geojson
+       Features: 342
+
+[PASS] apollo-19ad92942e3-2100706957.geojson
+       Features: 211
+
+[PASS] apollo-19ad929bb69-2100706668.geojson
+       Features: 153
+
+[PASS] apollo-19ad92b8c93-2100707732.geojson
+       Features: 123
+
+[PASS] apollo-19ad92bfb0f-2100707362.geojson
+       Features: 134
+
+[PASS] apollo-19ae6e5324b-RW_120020E_2100693052_20250811_09_KBK.geojson
+       Features: 269
+
+[PASS] apollo-19ae6e8d041-RW_120020E_2100693053_20250811-12_KBK.geojson
+       Features: 266
+
+[PASS] apollo-19ae6ebf857-RW_120020E_2100694469_20250820-21_KBK.geojson
+       Features: 207
+
+[PASS] apollo-19ae6ecc4a5-RW_120020E_2100694469_20250820-21_KBK.geojson
+       Features: 207
+
+[PASS] apollo-19aed6968c7-HG_SGO_20251114_2100700705.geojson
+       Features: 4575
+
+[PASS] apollo-19aed6b0e86-HG_SGO_20251115_2100700706.geojson
+       Features: 4575
+
+[PASS] apollo-19af853f23d-2100700707.geojson
+       Features: 147
+
+[PASS] apollo-19b20e40e60-HG_SCL_20251108_2100700703.geojson
+       Features: 2581
+
+[PASS] apollo-19b20e651ab-HG_SCL_20251117_2100700704.geojson
+       Features: 2493
+
+[PASS] apollo-19b3629d7fc-2100710055.geojson
+       Features: 118
+
+[PASS] apollo-19b362a868b-2100707007.geojson
+       Features: 126
+
+[PASS] apollo-19b8dab4f0f-APOLLO-SI_289.geojson
+       Features: 128
+
+[PASS] apollo-19b90d87e55-APOLLO-SI_290.geojson
+       Features: 104
+
+[PASS] apollo-19b90f3d6a7-APOLLO-SI_224.geojson
+       Features: 160
+
+[PASS] apollo-19b9b513d50-HG_SCL_20251222_2100707070.geojson
+       Features: 2047
+
+[PASS] apollo-19bda52446e-APOLLO_SI_403.geojson
+       Features: 103
+
+[PASS] apollo-19bda575309-APOLLO-_SI_415.geojson
+       Features: 6
+
+[PASS] apollo-19bdb670932-HG_SCL_20251230_2100707071.geojson
+       Features: 2483
+
+[PASS] apollo-19c4014d605-2100707203.geojson
+       Features: 148
+
+[PASS] apollo-19c9cc361a7-RW_120020E_2100707081_20251202-03_KBK.geojson
+       Features: 266
+
+[PASS] apollo-19c9ce14c19-HG_SDQ_20251230_2100707201.geojson
+       Features: 358
+
+[PASS] apollo-19c9ce4c436-HG_SDQ_20251229_2100707200.geojson
+       Features: 1084
+
+[PASS] apollo-19e90cbdd77-HG_SDQ_20250927_2100697120.geojson
+       Features: 1190
+
+[PASS] apollo-19e90eb2441-HG_SGO_20251230_2100707066.geojson
+       Features: 3191
+
+[PASS] apollo-19e90f08e23-HG_SGO_20251210_2100707064(1).geojson
+       Features: 3651

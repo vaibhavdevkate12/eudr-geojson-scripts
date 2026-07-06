@@ -1,0 +1,57 @@
+================================================================================
+AGGREGATE SUMMARY
+================================================================================
+Total Files (Submissions) Analyzed: 2 (0 duplicates skipped)
+Total Features: 6 (Points: 2, Polygons: 4)
+
+GLOBAL FEATURE COUNTS:
+- Total Point Features (billed flat 4 tokens each): 2
+- Total Polygon Features: 4
+  * Declared Basis:   < 0.03 ha: 0 | >= 0.03 ha: 4
+  * Calculated Basis: < 0.03 ha: 0 | >= 0.03 ha: 4
+
+1. DECLARED AREA BASIS (Original properties.Area):
+   * Total Hectares: 50.8000 ha
+   * Total Tokens: 61 (Points: 8, Polygons < 0.03 ha: 0, Polygons >= 0.03 ha: 53)
+   * Total Cost: €61.00 (Euros)
+   * Total Cost: ₹6636.80 (INR)
+
+2. GEOMETRY CALCULATED BASIS (calculated using Turf + original point areas):
+   * Total Hectares: 597.5101 ha
+   * Total Tokens: 607 (Points: 8, Polygons < 0.03 ha: 0, Polygons >= 0.03 ha: 599)
+   * Total Cost: €607.00 (Euros)
+   * Total Cost: ₹66041.60 (INR)
+================================================================================
+
+================================================================================
+DEFORESTATION ANALYSIS TOKEN CONSUMPTION & COST REPORT
+Date: 2026-07-02T10:06:35.002Z
+Total Submissions: 2
+================================================================================
+
+Submission File: eudr_sample_type_i.geojson
+  - Points Count: 1 | Polygons Count: 1
+  - DECLARED AREA BASIS:
+    * Total Area: 12.4000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1
+    * Billed Tokens: 17 (Points: 4, Polygons: 13)
+    * Estimated Cost: €17.00 / ₹1849.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 119.4276 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1
+    * Billed Tokens: 124 (Points: 4, Polygons: 120)
+    * Estimated Cost: €124.00 / ₹13491.20
+--------------------------------------------------------------------------------
+Submission File: eudr_sample_type_ii.geojson
+  - Points Count: 1 | Polygons Count: 3
+  - DECLARED AREA BASIS:
+    * Total Area: 38.4000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 3
+    * Billed Tokens: 44 (Points: 4, Polygons: 40)
+    * Estimated Cost: €44.00 / ₹4787.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 478.0824 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 3
+    * Billed Tokens: 483 (Points: 4, Polygons: 479)
+    * Estimated Cost: €483.00 / ₹52550.40
+--------------------------------------------------------------------------------

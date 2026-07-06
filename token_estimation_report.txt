@@ -1,0 +1,2202 @@
+================================================================================
+AGGREGATE SUMMARY
+================================================================================
+Total Files (Submissions) Analyzed: 167 (27 duplicates skipped)
+Total Features: 110372 (Points: 82322, Polygons: 28050)
+
+GLOBAL FEATURE COUNTS:
+- Total Point Features (billed flat 4 tokens each): 82322
+- Total Polygon Features: 28050
+  * Declared Basis:   < 0.03 ha: 164 | >= 0.03 ha: 27886
+  * Calculated Basis: < 0.03 ha: 166 | >= 0.03 ha: 27884
+
+1. DECLARED AREA BASIS (Original properties.Area):
+   * Total Hectares: 223802.1260 ha
+   * Total Tokens: 473552 (Points: 329288, Polygons < 0.03 ha: 656, Polygons >= 0.03 ha: 143608)
+   * Total Cost: €473552.00 (Euros)
+   * Total Cost: ₹51522457.60 (INR)
+
+2. GEOMETRY CALCULATED BASIS (calculated using Turf + original point areas):
+   * Total Hectares: 224376.9190 ha
+   * Total Tokens: 474374 (Points: 329288, Polygons < 0.03 ha: 664, Polygons >= 0.03 ha: 144422)
+   * Total Cost: €474374.00 (Euros)
+   * Total Cost: ₹51611891.20 (INR)
+================================================================================
+
+================================================================================
+DEFORESTATION ANALYSIS TOKEN CONSUMPTION & COST REPORT
+Date: 2026-07-02T10:06:34.309Z
+Total Submissions: 167
+================================================================================
+
+Submission File: apollo-19a162a8233-2100699318.geojson
+  - Points Count: 0 | Polygons Count: 119
+  - DECLARED AREA BASIS:
+    * Total Area: 295.8060 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 117
+    * Billed Tokens: 367 (Points: 0, Polygons: 367)
+    * Estimated Cost: €367.00 / ₹39929.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 295.1362 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 117
+    * Billed Tokens: 366 (Points: 0, Polygons: 366)
+    * Estimated Cost: €366.00 / ₹39820.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19c3d109-2100699319.geojson
+  - Points Count: 0 | Polygons Count: 22
+  - DECLARED AREA BASIS:
+    * Total Area: 113.2560 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 22
+    * Billed Tokens: 125 (Points: 0, Polygons: 125)
+    * Estimated Cost: €125.00 / ₹13600.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 112.9972 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 22
+    * Billed Tokens: 124 (Points: 0, Polygons: 124)
+    * Estimated Cost: €124.00 / ₹13491.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19c50879-2100699120.geojson
+  - Points Count: 0 | Polygons Count: 163
+  - DECLARED AREA BASIS:
+    * Total Area: 502.0830 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 161
+    * Billed Tokens: 598 (Points: 0, Polygons: 598)
+    * Estimated Cost: €598.00 / ₹65062.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 500.9532 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 161
+    * Billed Tokens: 596 (Points: 0, Polygons: 596)
+    * Estimated Cost: €596.00 / ₹64844.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19c6d1a6-2100697970.geojson
+  - Points Count: 0 | Polygons Count: 104
+  - DECLARED AREA BASIS:
+    * Total Area: 535.9580 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 104
+    * Billed Tokens: 594 (Points: 0, Polygons: 594)
+    * Estimated Cost: €594.00 / ₹64627.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 534.7556 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 104
+    * Billed Tokens: 591 (Points: 0, Polygons: 591)
+    * Estimated Cost: €591.00 / ₹64300.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19c7914a-2100700278.geojson
+  - Points Count: 0 | Polygons Count: 82
+  - DECLARED AREA BASIS:
+    * Total Area: 422.7020 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 82
+    * Billed Tokens: 469 (Points: 0, Polygons: 469)
+    * Estimated Cost: €469.00 / ₹51027.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 421.7584 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 82
+    * Billed Tokens: 467 (Points: 0, Polygons: 467)
+    * Estimated Cost: €467.00 / ₹50809.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19c81626-2100700144.geojson
+  - Points Count: 0 | Polygons Count: 259
+  - DECLARED AREA BASIS:
+    * Total Area: 731.1720 ha
+    * Polygons Breakdown: < 0.03 ha: 5 | >= 0.03 ha: 254
+    * Billed Tokens: 894 (Points: 0, Polygons: 894)
+    * Estimated Cost: €894.00 / ₹97267.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 729.5332 ha
+    * Polygons Breakdown: < 0.03 ha: 5 | >= 0.03 ha: 254
+    * Billed Tokens: 891 (Points: 0, Polygons: 891)
+    * Estimated Cost: €891.00 / ₹96940.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19caeedf-2100697735.geojson
+  - Points Count: 0 | Polygons Count: 84
+  - DECLARED AREA BASIS:
+    * Total Area: 537.4720 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 84
+    * Billed Tokens: 585 (Points: 0, Polygons: 585)
+    * Estimated Cost: €585.00 / ₹63648.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 536.2707 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 84
+    * Billed Tokens: 582 (Points: 0, Polygons: 582)
+    * Estimated Cost: €582.00 / ₹63321.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19cc24e4-2100697216.geojson
+  - Points Count: 0 | Polygons Count: 120
+  - DECLARED AREA BASIS:
+    * Total Area: 639.1270 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 120
+    * Billed Tokens: 707 (Points: 0, Polygons: 707)
+    * Estimated Cost: €707.00 / ₹76921.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 637.6998 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 120
+    * Billed Tokens: 704 (Points: 0, Polygons: 704)
+    * Estimated Cost: €704.00 / ₹76595.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19ccbc48-2100697215.geojson
+  - Points Count: 0 | Polygons Count: 23
+  - DECLARED AREA BASIS:
+    * Total Area: 114.9730 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 23
+    * Billed Tokens: 127 (Points: 0, Polygons: 127)
+    * Estimated Cost: €127.00 / ₹13817.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 114.7103 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 23
+    * Billed Tokens: 126 (Points: 0, Polygons: 126)
+    * Estimated Cost: €126.00 / ₹13708.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19cdb23a-2100696806.geojson
+  - Points Count: 0 | Polygons Count: 129
+  - DECLARED AREA BASIS:
+    * Total Area: 782.9600 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 127
+    * Billed Tokens: 863 (Points: 0, Polygons: 863)
+    * Estimated Cost: €863.00 / ₹93894.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 781.2104 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 127
+    * Billed Tokens: 859 (Points: 0, Polygons: 859)
+    * Estimated Cost: €859.00 / ₹93459.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19ce9747-2100703547.geojson
+  - Points Count: 0 | Polygons Count: 131
+  - DECLARED AREA BASIS:
+    * Total Area: 467.8040 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 129
+    * Billed Tokens: 553 (Points: 0, Polygons: 553)
+    * Estimated Cost: €553.00 / ₹60166.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 466.7570 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 129
+    * Billed Tokens: 551 (Points: 0, Polygons: 551)
+    * Estimated Cost: €551.00 / ₹59948.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19cf834a-2100696533.geojson
+  - Points Count: 0 | Polygons Count: 127
+  - DECLARED AREA BASIS:
+    * Total Area: 785.4290 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 127
+    * Billed Tokens: 857 (Points: 0, Polygons: 857)
+    * Estimated Cost: €857.00 / ₹93241.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 783.6716 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 127
+    * Billed Tokens: 853 (Points: 0, Polygons: 853)
+    * Estimated Cost: €853.00 / ₹92806.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19dd75dc-2100700336.geojson
+  - Points Count: 0 | Polygons Count: 108
+  - DECLARED AREA BASIS:
+    * Total Area: 622.1750 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 108
+    * Billed Tokens: 684 (Points: 0, Polygons: 684)
+    * Estimated Cost: €684.00 / ₹74419.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 620.7906 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 108
+    * Billed Tokens: 681 (Points: 0, Polygons: 681)
+    * Estimated Cost: €681.00 / ₹74092.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19de0ced-2100700089.geojson
+  - Points Count: 0 | Polygons Count: 26
+  - DECLARED AREA BASIS:
+    * Total Area: 199.4730 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 26
+    * Billed Tokens: 215 (Points: 0, Polygons: 215)
+    * Estimated Cost: €215.00 / ₹23392.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 199.0322 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 26
+    * Billed Tokens: 214 (Points: 0, Polygons: 214)
+    * Estimated Cost: €214.00 / ₹23283.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19dea08a-2100700086.geojson
+  - Points Count: 0 | Polygons Count: 38
+  - DECLARED AREA BASIS:
+    * Total Area: 216.4250 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 38
+    * Billed Tokens: 238 (Points: 0, Polygons: 238)
+    * Estimated Cost: €238.00 / ₹25894.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 215.9414 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 38
+    * Billed Tokens: 237 (Points: 0, Polygons: 237)
+    * Estimated Cost: €237.00 / ₹25785.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e07c4a-2100704272.geojson
+  - Points Count: 0 | Polygons Count: 29
+  - DECLARED AREA BASIS:
+    * Total Area: 483.1620 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 29
+    * Billed Tokens: 498 (Points: 0, Polygons: 498)
+    * Estimated Cost: €498.00 / ₹54182.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 482.0988 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 29
+    * Billed Tokens: 496 (Points: 0, Polygons: 496)
+    * Estimated Cost: €496.00 / ₹53964.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e16f44-2100699507.geojson
+  - Points Count: 0 | Polygons Count: 120
+  - DECLARED AREA BASIS:
+    * Total Area: 572.4150 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 120
+    * Billed Tokens: 635 (Points: 0, Polygons: 635)
+    * Estimated Cost: €635.00 / ₹69088.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 571.1583 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 120
+    * Billed Tokens: 633 (Points: 0, Polygons: 633)
+    * Estimated Cost: €633.00 / ₹68870.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e23677-2100699127.geojson
+  - Points Count: 0 | Polygons Count: 96
+  - DECLARED AREA BASIS:
+    * Total Area: 517.7770 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 93
+    * Billed Tokens: 578 (Points: 0, Polygons: 578)
+    * Estimated Cost: €578.00 / ₹62886.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 516.6317 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 93
+    * Billed Tokens: 575 (Points: 0, Polygons: 575)
+    * Estimated Cost: €575.00 / ₹62560.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e2f4d8-2100698488.geojson
+  - Points Count: 0 | Polygons Count: 90
+  - DECLARED AREA BASIS:
+    * Total Area: 513.5750 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 87
+    * Billed Tokens: 572 (Points: 0, Polygons: 572)
+    * Estimated Cost: €572.00 / ₹62233.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 512.4498 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 87
+    * Billed Tokens: 571 (Points: 0, Polygons: 571)
+    * Estimated Cost: €571.00 / ₹62124.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e396ca-2100698339.geojson
+  - Points Count: 0 | Polygons Count: 95
+  - DECLARED AREA BASIS:
+    * Total Area: 498.3820 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 92
+    * Billed Tokens: 559 (Points: 0, Polygons: 559)
+    * Estimated Cost: €559.00 / ₹60819.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 497.2821 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 92
+    * Billed Tokens: 557 (Points: 0, Polygons: 557)
+    * Estimated Cost: €557.00 / ₹60601.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e42bcc-2100698338.geojson
+  - Points Count: 0 | Polygons Count: 30
+  - DECLARED AREA BASIS:
+    * Total Area: 478.4300 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 30
+    * Billed Tokens: 491 (Points: 0, Polygons: 491)
+    * Estimated Cost: €491.00 / ₹53420.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 477.3580 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 30
+    * Billed Tokens: 488 (Points: 0, Polygons: 488)
+    * Estimated Cost: €488.00 / ₹53094.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e486aa-2100697969.geojson
+  - Points Count: 0 | Polygons Count: 47
+  - DECLARED AREA BASIS:
+    * Total Area: 500.0820 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 47
+    * Billed Tokens: 523 (Points: 0, Polygons: 523)
+    * Estimated Cost: €523.00 / ₹56902.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 498.9517 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 47
+    * Billed Tokens: 520 (Points: 0, Polygons: 520)
+    * Estimated Cost: €520.00 / ₹56576.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e4db14-2100697965.geojson
+  - Points Count: 0 | Polygons Count: 30
+  - DECLARED AREA BASIS:
+    * Total Area: 477.8080 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 30
+    * Billed Tokens: 490 (Points: 0, Polygons: 490)
+    * Estimated Cost: €490.00 / ₹53312.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 476.7380 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 30
+    * Billed Tokens: 489 (Points: 0, Polygons: 489)
+    * Estimated Cost: €489.00 / ₹53203.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e550ab-2100697742.geojson
+  - Points Count: 0 | Polygons Count: 100
+  - DECLARED AREA BASIS:
+    * Total Area: 507.1080 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 97
+    * Billed Tokens: 568 (Points: 0, Polygons: 568)
+    * Estimated Cost: €568.00 / ₹61798.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 505.9863 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 97
+    * Billed Tokens: 565 (Points: 0, Polygons: 565)
+    * Estimated Cost: €565.00 / ₹61472.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e5b377-2100697737.geojson
+  - Points Count: 0 | Polygons Count: 120
+  - DECLARED AREA BASIS:
+    * Total Area: 139.2120 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 117
+    * Billed Tokens: 213 (Points: 0, Polygons: 213)
+    * Estimated Cost: €213.00 / ₹23174.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 138.9396 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 117
+    * Billed Tokens: 211 (Points: 0, Polygons: 211)
+    * Estimated Cost: €211.00 / ₹22956.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e69295-2100697569.geojson
+  - Points Count: 0 | Polygons Count: 69
+  - DECLARED AREA BASIS:
+    * Total Area: 92.3870 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 69
+    * Billed Tokens: 124 (Points: 0, Polygons: 124)
+    * Estimated Cost: €124.00 / ₹13491.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 92.1960 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 69
+    * Billed Tokens: 124 (Points: 0, Polygons: 124)
+    * Estimated Cost: €124.00 / ₹13491.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e73795-2100697381.geojson
+  - Points Count: 0 | Polygons Count: 186
+  - DECLARED AREA BASIS:
+    * Total Area: 184.4460 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 182
+    * Billed Tokens: 300 (Points: 0, Polygons: 300)
+    * Estimated Cost: €300.00 / ₹32640.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 184.0749 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 182
+    * Billed Tokens: 298 (Points: 0, Polygons: 298)
+    * Estimated Cost: €298.00 / ₹32422.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e7c1c4-2100697214-.geojson
+  - Points Count: 0 | Polygons Count: 165
+  - DECLARED AREA BASIS:
+    * Total Area: 211.4440 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 165
+    * Billed Tokens: 296 (Points: 0, Polygons: 296)
+    * Estimated Cost: €296.00 / ₹32204.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 210.9973 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 165
+    * Billed Tokens: 294 (Points: 0, Polygons: 294)
+    * Estimated Cost: €294.00 / ₹31987.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19e816b2-2100697209.geojson
+  - Points Count: 0 | Polygons Count: 102
+  - DECLARED AREA BASIS:
+    * Total Area: 526.8200 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 99
+    * Billed Tokens: 590 (Points: 0, Polygons: 590)
+    * Estimated Cost: €590.00 / ₹64192.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 525.6598 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 99
+    * Billed Tokens: 589 (Points: 0, Polygons: 589)
+    * Estimated Cost: €589.00 / ₹64083.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19eb7edc-2100696673.geojson
+  - Points Count: 0 | Polygons Count: 110
+  - DECLARED AREA BASIS:
+    * Total Area: 501.0460 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 109
+    * Billed Tokens: 566 (Points: 0, Polygons: 566)
+    * Estimated Cost: €566.00 / ₹61580.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 499.9377 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 109
+    * Billed Tokens: 565 (Points: 0, Polygons: 565)
+    * Estimated Cost: €565.00 / ₹61472.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19ebc6af-2100696671.geojson
+  - Points Count: 0 | Polygons Count: 33
+  - DECLARED AREA BASIS:
+    * Total Area: 472.7040 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 33
+    * Billed Tokens: 488 (Points: 0, Polygons: 488)
+    * Estimated Cost: €488.00 / ₹53094.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 471.6349 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 33
+    * Billed Tokens: 486 (Points: 0, Polygons: 486)
+    * Estimated Cost: €486.00 / ₹52876.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19ec172d-2100704122.geojson
+  - Points Count: 0 | Polygons Count: 66
+  - DECLARED AREA BASIS:
+    * Total Area: 485.9570 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 66
+    * Billed Tokens: 516 (Points: 0, Polygons: 516)
+    * Estimated Cost: €516.00 / ₹56140.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 484.8815 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 66
+    * Billed Tokens: 515 (Points: 0, Polygons: 515)
+    * Estimated Cost: €515.00 / ₹56032.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19ed38a6-2100703259.geojson
+  - Points Count: 0 | Polygons Count: 147
+  - DECLARED AREA BASIS:
+    * Total Area: 172.5160 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 147
+    * Billed Tokens: 245 (Points: 0, Polygons: 245)
+    * Estimated Cost: €245.00 / ₹26656.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 172.1655 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 147
+    * Billed Tokens: 243 (Points: 0, Polygons: 243)
+    * Estimated Cost: €243.00 / ₹26438.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19eddd35-2100700791.geojson
+  - Points Count: 0 | Polygons Count: 115
+  - DECLARED AREA BASIS:
+    * Total Area: 111.5340 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 112
+    * Billed Tokens: 183 (Points: 0, Polygons: 183)
+    * Estimated Cost: €183.00 / ₹19910.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 111.2980 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 112
+    * Billed Tokens: 181 (Points: 0, Polygons: 181)
+    * Estimated Cost: €181.00 / ₹19692.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19ee30db-2100700790.geojson
+  - Points Count: 0 | Polygons Count: 96
+  - DECLARED AREA BASIS:
+    * Total Area: 104.9010 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 95
+    * Billed Tokens: 162 (Points: 0, Polygons: 162)
+    * Estimated Cost: €162.00 / ₹17625.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 104.6926 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 95
+    * Billed Tokens: 162 (Points: 0, Polygons: 162)
+    * Estimated Cost: €162.00 / ₹17625.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19ee7a28-2100700627.geojson
+  - Points Count: 0 | Polygons Count: 47
+  - DECLARED AREA BASIS:
+    * Total Area: 56.7510 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 47
+    * Billed Tokens: 79 (Points: 0, Polygons: 79)
+    * Estimated Cost: €79.00 / ₹8595.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 56.6230 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 47
+    * Billed Tokens: 78 (Points: 0, Polygons: 78)
+    * Estimated Cost: €78.00 / ₹8486.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19eeb7ba-2100700173.geojson
+  - Points Count: 0 | Polygons Count: 7
+  - DECLARED AREA BASIS:
+    * Total Area: 445.1480 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 7
+    * Billed Tokens: 449 (Points: 0, Polygons: 449)
+    * Estimated Cost: €449.00 / ₹48851.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 444.1523 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 7
+    * Billed Tokens: 448 (Points: 0, Polygons: 448)
+    * Estimated Cost: €448.00 / ₹48742.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a19ef06d7-2100699900.geojson
+  - Points Count: 0 | Polygons Count: 94
+  - DECLARED AREA BASIS:
+    * Total Area: 494.3710 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 91
+    * Billed Tokens: 554 (Points: 0, Polygons: 554)
+    * Estimated Cost: €554.00 / ₹60275.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 493.2792 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 91
+    * Billed Tokens: 553 (Points: 0, Polygons: 553)
+    * Estimated Cost: €553.00 / ₹60166.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a2437107b-2100705269.geojson
+  - Points Count: 0 | Polygons Count: 92
+  - DECLARED AREA BASIS:
+    * Total Area: 519.8650 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 90
+    * Billed Tokens: 573 (Points: 0, Polygons: 573)
+    * Estimated Cost: €573.00 / ₹62342.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 518.7530 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 90
+    * Billed Tokens: 571 (Points: 0, Polygons: 571)
+    * Estimated Cost: €571.00 / ₹62124.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a243bc657-2100705063.geojson
+  - Points Count: 0 | Polygons Count: 157
+  - DECLARED AREA BASIS:
+    * Total Area: 201.2690 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 157
+    * Billed Tokens: 284 (Points: 0, Polygons: 284)
+    * Estimated Cost: €284.00 / ₹30899.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 200.8554 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 157
+    * Billed Tokens: 283 (Points: 0, Polygons: 283)
+    * Estimated Cost: €283.00 / ₹30790.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a243ca014-2100705049.geojson
+  - Points Count: 0 | Polygons Count: 23
+  - DECLARED AREA BASIS:
+    * Total Area: 436.6040 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 23
+    * Billed Tokens: 449 (Points: 0, Polygons: 449)
+    * Estimated Cost: €449.00 / ₹48851.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 435.6249 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 23
+    * Billed Tokens: 447 (Points: 0, Polygons: 447)
+    * Estimated Cost: €447.00 / ₹48633.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a243d2a34-2100704930.geojson
+  - Points Count: 0 | Polygons Count: 76
+  - DECLARED AREA BASIS:
+    * Total Area: 463.9100 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 73
+    * Billed Tokens: 516 (Points: 0, Polygons: 516)
+    * Estimated Cost: €516.00 / ₹56140.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 462.8887 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 73
+    * Billed Tokens: 515 (Points: 0, Polygons: 515)
+    * Estimated Cost: €515.00 / ₹56032.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a243e687e-2100704494.geojson
+  - Points Count: 0 | Polygons Count: 25
+  - DECLARED AREA BASIS:
+    * Total Area: 457.3760 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 25
+    * Billed Tokens: 468 (Points: 0, Polygons: 468)
+    * Estimated Cost: €468.00 / ₹50918.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 456.3592 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 25
+    * Billed Tokens: 467 (Points: 0, Polygons: 467)
+    * Estimated Cost: €467.00 / ₹50809.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a243f1423-2100704656.geojson
+  - Points Count: 0 | Polygons Count: 46
+  - DECLARED AREA BASIS:
+    * Total Area: 491.1540 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 46
+    * Billed Tokens: 511 (Points: 0, Polygons: 511)
+    * Estimated Cost: €511.00 / ₹55596.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 490.0566 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 46
+    * Billed Tokens: 509 (Points: 0, Polygons: 509)
+    * Estimated Cost: €509.00 / ₹55379.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a244030f0-2100705356.geojson
+  - Points Count: 0 | Polygons Count: 98
+  - DECLARED AREA BASIS:
+    * Total Area: 539.9620 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 96
+    * Billed Tokens: 594 (Points: 0, Polygons: 594)
+    * Estimated Cost: €594.00 / ₹64627.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 538.7936 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 96
+    * Billed Tokens: 591 (Points: 0, Polygons: 591)
+    * Estimated Cost: €591.00 / ₹64300.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a2442422d-2100705278.geojson
+  - Points Count: 0 | Polygons Count: 302
+  - DECLARED AREA BASIS:
+    * Total Area: 730.6100 ha
+    * Polygons Breakdown: < 0.03 ha: 15 | >= 0.03 ha: 287
+    * Billed Tokens: 975 (Points: 0, Polygons: 975)
+    * Estimated Cost: €975.00 / ₹106080.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 728.9849 ha
+    * Polygons Breakdown: < 0.03 ha: 15 | >= 0.03 ha: 287
+    * Billed Tokens: 972 (Points: 0, Polygons: 972)
+    * Estimated Cost: €972.00 / ₹105753.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a38dd4d51-2100705799.geojson
+  - Points Count: 0 | Polygons Count: 218
+  - DECLARED AREA BASIS:
+    * Total Area: 646.1900 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 216
+    * Billed Tokens: 767 (Points: 0, Polygons: 767)
+    * Estimated Cost: €767.00 / ₹83449.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 644.8207 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 216
+    * Billed Tokens: 764 (Points: 0, Polygons: 764)
+    * Estimated Cost: €764.00 / ₹83123.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a38ddea08-2100705785.geojson
+  - Points Count: 0 | Polygons Count: 33
+  - DECLARED AREA BASIS:
+    * Total Area: 294.1170 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 33
+    * Billed Tokens: 315 (Points: 0, Polygons: 315)
+    * Estimated Cost: €315.00 / ₹34272.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 293.4642 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 33
+    * Billed Tokens: 313 (Points: 0, Polygons: 313)
+    * Estimated Cost: €313.00 / ₹34054.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a38defb58-2100705961.geojson
+  - Points Count: 0 | Polygons Count: 32
+  - DECLARED AREA BASIS:
+    * Total Area: 181.0640 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 32
+    * Billed Tokens: 201 (Points: 0, Polygons: 201)
+    * Estimated Cost: €201.00 / ₹21868.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 180.6650 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 32
+    * Billed Tokens: 200 (Points: 0, Polygons: 200)
+    * Estimated Cost: €200.00 / ₹21760.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a3920df18-2100706107.geojson
+  - Points Count: 0 | Polygons Count: 243
+  - DECLARED AREA BASIS:
+    * Total Area: 726.2050 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 239
+    * Billed Tokens: 880 (Points: 0, Polygons: 880)
+    * Estimated Cost: €880.00 / ₹95744.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 724.5773 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 239
+    * Billed Tokens: 877 (Points: 0, Polygons: 877)
+    * Estimated Cost: €877.00 / ₹95417.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a3921934b-2100706280.geojson
+  - Points Count: 0 | Polygons Count: 192
+  - DECLARED AREA BASIS:
+    * Total Area: 611.0630 ha
+    * Polygons Breakdown: < 0.03 ha: 5 | >= 0.03 ha: 187
+    * Billed Tokens: 727 (Points: 0, Polygons: 727)
+    * Estimated Cost: €727.00 / ₹79097.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 609.7673 ha
+    * Polygons Breakdown: < 0.03 ha: 5 | >= 0.03 ha: 187
+    * Billed Tokens: 725 (Points: 0, Polygons: 725)
+    * Estimated Cost: €725.00 / ₹78880.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d6eb7d9-2100693243.geojson
+  - Points Count: 0 | Polygons Count: 71
+  - DECLARED AREA BASIS:
+    * Total Area: 754.9700 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 71
+    * Billed Tokens: 791 (Points: 0, Polygons: 791)
+    * Estimated Cost: €791.00 / ₹86060.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 753.2876 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 71
+    * Billed Tokens: 791 (Points: 0, Polygons: 791)
+    * Estimated Cost: €791.00 / ₹86060.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d7183aa-2100693246.geojson
+  - Points Count: 0 | Polygons Count: 72
+  - DECLARED AREA BASIS:
+    * Total Area: 899.6500 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 72
+    * Billed Tokens: 936 (Points: 0, Polygons: 936)
+    * Estimated Cost: €936.00 / ₹101836.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 897.6549 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 72
+    * Billed Tokens: 934 (Points: 0, Polygons: 934)
+    * Estimated Cost: €934.00 / ₹101619.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d755be4-2100694428.geojson
+  - Points Count: 0 | Polygons Count: 132
+  - DECLARED AREA BASIS:
+    * Total Area: 973.7500 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 132
+    * Billed Tokens: 1040 (Points: 0, Polygons: 1040)
+    * Estimated Cost: €1040.00 / ₹113152.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 971.5773 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 132
+    * Billed Tokens: 1040 (Points: 0, Polygons: 1040)
+    * Estimated Cost: €1040.00 / ₹113152.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d783dfe-2100694433.geojson
+  - Points Count: 0 | Polygons Count: 114
+  - DECLARED AREA BASIS:
+    * Total Area: 860.4800 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 114
+    * Billed Tokens: 919 (Points: 0, Polygons: 919)
+    * Estimated Cost: €919.00 / ₹99987.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 858.5735 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 114
+    * Billed Tokens: 917 (Points: 0, Polygons: 917)
+    * Estimated Cost: €917.00 / ₹99769.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d7d40db-2100693050.geojson
+  - Points Count: 0 | Polygons Count: 93
+  - DECLARED AREA BASIS:
+    * Total Area: 4688.5400 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 93
+    * Billed Tokens: 4737 (Points: 0, Polygons: 4737)
+    * Estimated Cost: €4737.00 / ₹515385.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 5273.6230 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 93
+    * Billed Tokens: 5323 (Points: 0, Polygons: 5323)
+    * Estimated Cost: €5323.00 / ₹579142.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d7e32db-2100699227.geojson
+  - Points Count: 0 | Polygons Count: 1686
+  - DECLARED AREA BASIS:
+    * Total Area: 4680.6900 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1686
+    * Billed Tokens: 5496 (Points: 0, Polygons: 5496)
+    * Estimated Cost: €5496.00 / ₹597964.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 4262.8750 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1686
+    * Billed Tokens: 5099 (Points: 0, Polygons: 5099)
+    * Estimated Cost: €5099.00 / ₹554771.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d839700-2100693728.geojson
+  - Points Count: 0 | Polygons Count: 187
+  - DECLARED AREA BASIS:
+    * Total Area: 996.6700 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 187
+    * Billed Tokens: 1096 (Points: 0, Polygons: 1096)
+    * Estimated Cost: €1096.00 / ₹119244.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 994.4984 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 187
+    * Billed Tokens: 1094 (Points: 0, Polygons: 1094)
+    * Estimated Cost: €1094.00 / ₹119027.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d8674d2-2100696147.geojson
+  - Points Count: 0 | Polygons Count: 143
+  - DECLARED AREA BASIS:
+    * Total Area: 863.4200 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 143
+    * Billed Tokens: 936 (Points: 0, Polygons: 936)
+    * Estimated Cost: €936.00 / ₹101836.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 861.5036 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 143
+    * Billed Tokens: 933 (Points: 0, Polygons: 933)
+    * Estimated Cost: €933.00 / ₹101510.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d8d29aa-2100696150.geojson
+  - Points Count: 0 | Polygons Count: 121
+  - DECLARED AREA BASIS:
+    * Total Area: 1014.5400 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 121
+    * Billed Tokens: 1068 (Points: 0, Polygons: 1068)
+    * Estimated Cost: €1068.00 / ₹116198.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1012.2521 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 121
+    * Billed Tokens: 1068 (Points: 0, Polygons: 1068)
+    * Estimated Cost: €1068.00 / ₹116198.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d95ab3d-2100693051.geojson
+  - Points Count: 0 | Polygons Count: 162
+  - DECLARED AREA BASIS:
+    * Total Area: 920.1800 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 162
+    * Billed Tokens: 1004 (Points: 0, Polygons: 1004)
+    * Estimated Cost: €1004.00 / ₹109235.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 918.0708 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 162
+    * Billed Tokens: 1004 (Points: 0, Polygons: 1004)
+    * Estimated Cost: €1004.00 / ₹109235.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5d97b9c1-2100693729.geojson
+  - Points Count: 0 | Polygons Count: 140
+  - DECLARED AREA BASIS:
+    * Total Area: 1015.6400 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 140
+    * Billed Tokens: 1085 (Points: 0, Polygons: 1085)
+    * Estimated Cost: €1085.00 / ₹118048.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1013.3384 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 140
+    * Billed Tokens: 1082 (Points: 0, Polygons: 1082)
+    * Estimated Cost: €1082.00 / ₹117721.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5daa70d1-2100696418.geojson
+  - Points Count: 0 | Polygons Count: 1369
+  - DECLARED AREA BASIS:
+    * Total Area: 3502.7100 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1369
+    * Billed Tokens: 4169 (Points: 0, Polygons: 4169)
+    * Estimated Cost: €4169.00 / ₹453587.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 3281.2758 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 1368
+    * Billed Tokens: 3974 (Points: 0, Polygons: 3974)
+    * Estimated Cost: €3974.00 / ₹432371.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5db2ab72-2100693042.geojson
+  - Points Count: 0 | Polygons Count: 2047
+  - DECLARED AREA BASIS:
+    * Total Area: 5205.3700 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 2046
+    * Billed Tokens: 6196 (Points: 0, Polygons: 6196)
+    * Estimated Cost: €6196.00 / ₹674124.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 4633.0551 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 2046
+    * Billed Tokens: 5680 (Points: 0, Polygons: 5680)
+    * Estimated Cost: €5680.00 / ₹617984.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5dbaded1-2100706791.geojson
+  - Points Count: 0 | Polygons Count: 93
+  - DECLARED AREA BASIS:
+    * Total Area: 110.4870 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 90
+    * Billed Tokens: 167 (Points: 0, Polygons: 167)
+    * Estimated Cost: €167.00 / ₹18169.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 110.2599 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 90
+    * Billed Tokens: 166 (Points: 0, Polygons: 166)
+    * Estimated Cost: €166.00 / ₹18060.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5dbb2fa9-2100707088.geojson
+  - Points Count: 0 | Polygons Count: 242
+  - DECLARED AREA BASIS:
+    * Total Area: 264.3000 ha
+    * Polygons Breakdown: < 0.03 ha: 6 | >= 0.03 ha: 236
+    * Billed Tokens: 415 (Points: 0, Polygons: 415)
+    * Estimated Cost: €415.00 / ₹45152.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 263.8147 ha
+    * Polygons Breakdown: < 0.03 ha: 6 | >= 0.03 ha: 236
+    * Billed Tokens: 414 (Points: 0, Polygons: 414)
+    * Estimated Cost: €414.00 / ₹45043.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5dbbc4c2-2100706790.geojson
+  - Points Count: 0 | Polygons Count: 185
+  - DECLARED AREA BASIS:
+    * Total Area: 643.9100 ha
+    * Polygons Breakdown: < 0.03 ha: 5 | >= 0.03 ha: 180
+    * Billed Tokens: 756 (Points: 0, Polygons: 756)
+    * Estimated Cost: €756.00 / ₹82252.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 642.5350 ha
+    * Polygons Breakdown: < 0.03 ha: 5 | >= 0.03 ha: 180
+    * Billed Tokens: 753 (Points: 0, Polygons: 753)
+    * Estimated Cost: €753.00 / ₹81926.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5dbc3a84-2100706623.geojson
+  - Points Count: 0 | Polygons Count: 139
+  - DECLARED AREA BASIS:
+    * Total Area: 609.9200 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 135
+    * Billed Tokens: 707 (Points: 0, Polygons: 707)
+    * Estimated Cost: €707.00 / ₹76921.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 608.5545 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 135
+    * Billed Tokens: 704 (Points: 0, Polygons: 704)
+    * Estimated Cost: €704.00 / ₹76595.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5dbc7dba-2100707086.geojson
+  - Points Count: 0 | Polygons Count: 7
+  - DECLARED AREA BASIS:
+    * Total Area: 29.0630 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 5
+    * Billed Tokens: 40 (Points: 0, Polygons: 40)
+    * Estimated Cost: €40.00 / ₹4352.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 28.9983 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 5
+    * Billed Tokens: 40 (Points: 0, Polygons: 40)
+    * Estimated Cost: €40.00 / ₹4352.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5dbcc09d-2100707085.geojson
+  - Points Count: 0 | Polygons Count: 84
+  - DECLARED AREA BASIS:
+    * Total Area: 79.7770 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 80
+    * Billed Tokens: 138 (Points: 0, Polygons: 138)
+    * Estimated Cost: €138.00 / ₹15014.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 79.5911 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 80
+    * Billed Tokens: 138 (Points: 0, Polygons: 138)
+    * Estimated Cost: €138.00 / ₹15014.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5dbe22dd-2100706395.geojson
+  - Points Count: 0 | Polygons Count: 85
+  - DECLARED AREA BASIS:
+    * Total Area: 108.0480 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 83
+    * Billed Tokens: 160 (Points: 0, Polygons: 160)
+    * Estimated Cost: €160.00 / ₹17408.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 107.7968 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 83
+    * Billed Tokens: 160 (Points: 0, Polygons: 160)
+    * Estimated Cost: €160.00 / ₹17408.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5dcc4e1e-2100695584.geojson
+  - Points Count: 0 | Polygons Count: 825
+  - DECLARED AREA BASIS:
+    * Total Area: 2084.1100 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 825
+    * Billed Tokens: 2486 (Points: 0, Polygons: 2486)
+    * Estimated Cost: €2486.00 / ₹270476.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1907.3054 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 825
+    * Billed Tokens: 2321 (Points: 0, Polygons: 2321)
+    * Estimated Cost: €2321.00 / ₹252524.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5dcedc0a-2100697956.geojson
+  - Points Count: 0 | Polygons Count: 1369
+  - DECLARED AREA BASIS:
+    * Total Area: 3502.7100 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1369
+    * Billed Tokens: 4169 (Points: 0, Polygons: 4169)
+    * Estimated Cost: €4169.00 / ₹453587.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 3281.2783 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 1368
+    * Billed Tokens: 3974 (Points: 0, Polygons: 3974)
+    * Estimated Cost: €3974.00 / ₹432371.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a5dd46c2e-2100699230.geojson
+  - Points Count: 0 | Polygons Count: 1237
+  - DECLARED AREA BASIS:
+    * Total Area: 3633.2400 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1237
+    * Billed Tokens: 4224 (Points: 0, Polygons: 4224)
+    * Estimated Cost: €4224.00 / ₹459571.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 3242.3751 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1237
+    * Billed Tokens: 3856 (Points: 0, Polygons: 3856)
+    * Estimated Cost: €3856.00 / ₹419532.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a72d20347-2100707243.geojson
+  - Points Count: 0 | Polygons Count: 30
+  - DECLARED AREA BASIS:
+    * Total Area: 81.6060 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 30
+    * Billed Tokens: 99 (Points: 0, Polygons: 99)
+    * Estimated Cost: €99.00 / ₹10771.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 81.4165 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 30
+    * Billed Tokens: 99 (Points: 0, Polygons: 99)
+    * Estimated Cost: €99.00 / ₹10771.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a75df8b79-HG_SCL_20250804_2100693081.geojson
+  - Points Count: 1423 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 1495.1000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 5692 (Points: 5692, Polygons: 0)
+    * Estimated Cost: €5692.00 / ₹619289.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1495.1000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 5692 (Points: 5692, Polygons: 0)
+    * Estimated Cost: €5692.00 / ₹619289.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a75e2468a-HG_KBQ_20250811_2100693048.geojson
+  - Points Count: 2977 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 3438.5000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 11908 (Points: 11908, Polygons: 0)
+    * Estimated Cost: €11908.00 / ₹1295590.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 3438.5000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 11908 (Points: 11908, Polygons: 0)
+    * Estimated Cost: €11908.00 / ₹1295590.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7bdf67f5-HG_KBQ_20250809_2100693046.geojson
+  - Points Count: 5398 | Polygons Count: 1
+  - DECLARED AREA BASIS:
+    * Total Area: 6248.7000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1
+    * Billed Tokens: 21596 (Points: 21592, Polygons: 4)
+    * Estimated Cost: €21596.00 / ₹2349644.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 6248.8210 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1
+    * Billed Tokens: 21597 (Points: 21592, Polygons: 5)
+    * Estimated Cost: €21597.00 / ₹2349753.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7be8c0c2-HG_SCL_20250815_2100693112.geojson
+  - Points Count: 1833 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 2070.5000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 7332 (Points: 7332, Polygons: 0)
+    * Estimated Cost: €7332.00 / ₹797721.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2070.5000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 7332 (Points: 7332, Polygons: 0)
+    * Estimated Cost: €7332.00 / ₹797721.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7bebd833-HG_SDQ_20250729_2100693077.geojson
+  - Points Count: 1111 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 1150.6000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 4444 (Points: 4444, Polygons: 0)
+    * Estimated Cost: €4444.00 / ₹483507.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1150.6000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 4444 (Points: 4444, Polygons: 0)
+    * Estimated Cost: €4444.00 / ₹483507.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7bee460f-HG_SDQ_20250730_2100693070.geojson
+  - Points Count: 1026 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 1134.5000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 4104 (Points: 4104, Polygons: 0)
+    * Estimated Cost: €4104.00 / ₹446515.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1134.5000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 4104 (Points: 4104, Polygons: 0)
+    * Estimated Cost: €4104.00 / ₹446515.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c1fb334-HG_KBQ_20250825_2100693553.geojson
+  - Points Count: 2825 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 3329.4000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 11300 (Points: 11300, Polygons: 0)
+    * Estimated Cost: €11300.00 / ₹1229440.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 3329.4000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 11300 (Points: 11300, Polygons: 0)
+    * Estimated Cost: €11300.00 / ₹1229440.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c2b7748-HG_KBQ_20250827_2100693562.geojson
+  - Points Count: 5345 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 6388.7000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 21380 (Points: 21380, Polygons: 0)
+    * Estimated Cost: €21380.00 / ₹2326144.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 6388.7000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 21380 (Points: 21380, Polygons: 0)
+    * Estimated Cost: €21380.00 / ₹2326144.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c2fbc39-HG_SBG_20250717_2100693569.geojson
+  - Points Count: 1648 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 2134.5000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 6592 (Points: 6592, Polygons: 0)
+    * Estimated Cost: €6592.00 / ₹717209.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2134.5000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 6592 (Points: 6592, Polygons: 0)
+    * Estimated Cost: €6592.00 / ₹717209.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c35e4a6-HG_SCL_20250908_2100693582.geojson
+  - Points Count: 2364 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 2780.0000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 9456 (Points: 9456, Polygons: 0)
+    * Estimated Cost: €9456.00 / ₹1028812.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2780.0000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 9456 (Points: 9456, Polygons: 0)
+    * Estimated Cost: €9456.00 / ₹1028812.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c3839fb-HG_KBQ_20250901_2100694415.geojson
+  - Points Count: 2304 | Polygons Count: 2
+  - DECLARED AREA BASIS:
+    * Total Area: 2752.0000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 9226 (Points: 9216, Polygons: 10)
+    * Estimated Cost: €9226.00 / ₹1003788.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2752.2119 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 9228 (Points: 9216, Polygons: 12)
+    * Estimated Cost: €9228.00 / ₹1004006.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c3a7531-HG_SDQ_20250901_2100694530.geojson
+  - Points Count: 1655 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 1679.0000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 6620 (Points: 6620, Polygons: 0)
+    * Estimated Cost: €6620.00 / ₹720256.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1679.0000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 6620 (Points: 6620, Polygons: 0)
+    * Estimated Cost: €6620.00 / ₹720256.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c3d82cb-HG_SBG_20250809_2100693571.geojson
+  - Points Count: 2173 | Polygons Count: 1
+  - DECLARED AREA BASIS:
+    * Total Area: 2647.6000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1
+    * Billed Tokens: 8697 (Points: 8692, Polygons: 5)
+    * Estimated Cost: €8697.00 / ₹946233.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2646.0028 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1
+    * Billed Tokens: 8695 (Points: 8692, Polygons: 3)
+    * Estimated Cost: €8695.00 / ₹946016.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c4027e8-HG_SCL_20250911_2100693583.geojson
+  - Points Count: 2048 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 2225.5000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 8192 (Points: 8192, Polygons: 0)
+    * Estimated Cost: €8192.00 / ₹891289.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2225.5000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 8192 (Points: 8192, Polygons: 0)
+    * Estimated Cost: €8192.00 / ₹891289.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c42f16d-HG_SDQ_20250912_2100694528.geojson
+  - Points Count: 2279 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 2486.4000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 9116 (Points: 9116, Polygons: 0)
+    * Estimated Cost: €9116.00 / ₹991820.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2486.4000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 9116 (Points: 9116, Polygons: 0)
+    * Estimated Cost: €9116.00 / ₹991820.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c4675b1-HG_SDQ_20250913_2100694529.geojson
+  - Points Count: 1313 | Polygons Count: 2
+  - DECLARED AREA BASIS:
+    * Total Area: 3099.3000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 7013 (Points: 5252, Polygons: 1761)
+    * Estimated Cost: €7013.00 / ₹763014.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 3233.5361 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 7149 (Points: 5252, Polygons: 1897)
+    * Estimated Cost: €7149.00 / ₹777811.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c590096-HG_SCL_20250923_2100695291.geojson
+  - Points Count: 2887 | Polygons Count: 7
+  - DECLARED AREA BASIS:
+    * Total Area: 3166.2000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 7
+    * Billed Tokens: 11598 (Points: 11548, Polygons: 50)
+    * Estimated Cost: €11598.00 / ₹1261862.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 3165.6816 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 7
+    * Billed Tokens: 11602 (Points: 11548, Polygons: 54)
+    * Estimated Cost: €11602.00 / ₹1262297.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c5b1d9c-HG_SCL_20250930_2100695287.geojson
+  - Points Count: 3681 | Polygons Count: 14
+  - DECLARED AREA BASIS:
+    * Total Area: 4022.1000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 14
+    * Billed Tokens: 14806 (Points: 14724, Polygons: 82)
+    * Estimated Cost: €14806.00 / ₹1610892.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 4020.2900 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 14
+    * Billed Tokens: 14810 (Points: 14724, Polygons: 86)
+    * Estimated Cost: €14810.00 / ₹1611328.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c5cd18e-HG_KBQ_20250919_2100695753.geojson
+  - Points Count: 4039 | Polygons Count: 1
+  - DECLARED AREA BASIS:
+    * Total Area: 5020.0000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1
+    * Billed Tokens: 16160 (Points: 16156, Polygons: 4)
+    * Estimated Cost: €16160.00 / ₹1758208.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 5020.1225 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1
+    * Billed Tokens: 16161 (Points: 16156, Polygons: 5)
+    * Estimated Cost: €16161.00 / ₹1758316.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c5ebd8c-HG_KBQ_20250923_2100695754.geojson
+  - Points Count: 2031 | Polygons Count: 2
+  - DECLARED AREA BASIS:
+    * Total Area: 2372.6000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 8134 (Points: 8124, Polygons: 10)
+    * Estimated Cost: €8134.00 / ₹884979.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2373.3065 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 8136 (Points: 8124, Polygons: 12)
+    * Estimated Cost: €8136.00 / ₹885196.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c605fb9-HG_KBQ_20250922_2100695757.geojson
+  - Points Count: 3420 | Polygons Count: 2
+  - DECLARED AREA BASIS:
+    * Total Area: 4246.7000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 13690 (Points: 13680, Polygons: 10)
+    * Estimated Cost: €13690.00 / ₹1489472.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 4247.4065 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 13692 (Points: 13680, Polygons: 12)
+    * Estimated Cost: €13692.00 / ₹1489689.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c640b31-HG_SDQ_20250926_2100697118.geojson
+  - Points Count: 1058 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 1138.3000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 4232 (Points: 4232, Polygons: 0)
+    * Estimated Cost: €4232.00 / ₹460441.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1138.3000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 4232 (Points: 4232, Polygons: 0)
+    * Estimated Cost: €4232.00 / ₹460441.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c6b2ce0-HG_SBG_20251002_2100697122.geojson
+  - Points Count: 1523 | Polygons Count: 2
+  - DECLARED AREA BASIS:
+    * Total Area: 1860.2000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 6103 (Points: 6092, Polygons: 11)
+    * Estimated Cost: €6103.00 / ₹664006.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1861.2928 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 6105 (Points: 6092, Polygons: 13)
+    * Estimated Cost: €6105.00 / ₹664224.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a7c6d919a-HG_SBG_20251004_2100697125.geojson
+  - Points Count: 3124 | Polygons Count: 3
+  - DECLARED AREA BASIS:
+    * Total Area: 3407.8000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 3
+    * Billed Tokens: 12512 (Points: 12496, Polygons: 16)
+    * Estimated Cost: €12512.00 / ₹1361305.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 3407.2956 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 3
+    * Billed Tokens: 12512 (Points: 12496, Polygons: 16)
+    * Estimated Cost: €12512.00 / ₹1361305.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a9653eebb-2100708766.geojson
+  - Points Count: 0 | Polygons Count: 170
+  - DECLARED AREA BASIS:
+    * Total Area: 144.7480 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 167
+    * Billed Tokens: 245 (Points: 0, Polygons: 245)
+    * Estimated Cost: €245.00 / ₹26656.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 144.4913 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 167
+    * Billed Tokens: 244 (Points: 0, Polygons: 244)
+    * Estimated Cost: €244.00 / ₹26547.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a96547d09-2100708276.geojson
+  - Points Count: 0 | Polygons Count: 158
+  - DECLARED AREA BASIS:
+    * Total Area: 523.6080 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 156
+    * Billed Tokens: 624 (Points: 0, Polygons: 624)
+    * Estimated Cost: €624.00 / ₹67891.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 522.4291 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 156
+    * Billed Tokens: 622 (Points: 0, Polygons: 622)
+    * Estimated Cost: €622.00 / ₹67673.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a96553245-2100707970.geojson
+  - Points Count: 0 | Polygons Count: 27
+  - DECLARED AREA BASIS:
+    * Total Area: 54.6560 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 27
+    * Billed Tokens: 70 (Points: 0, Polygons: 70)
+    * Estimated Cost: €70.00 / ₹7616.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 54.5277 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 27
+    * Billed Tokens: 70 (Points: 0, Polygons: 70)
+    * Estimated Cost: €70.00 / ₹7616.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a9655a7db-2100707811.geojson
+  - Points Count: 0 | Polygons Count: 1
+  - DECLARED AREA BASIS:
+    * Total Area: 1.7170 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1
+    * Billed Tokens: 2 (Points: 0, Polygons: 2)
+    * Estimated Cost: €2.00 / ₹217.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1.7131 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 1
+    * Billed Tokens: 2 (Points: 0, Polygons: 2)
+    * Estimated Cost: €2.00 / ₹217.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19a96565529-2100707592.geojson
+  - Points Count: 0 | Polygons Count: 5
+  - DECLARED AREA BASIS:
+    * Total Area: 30.3840 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 5
+    * Billed Tokens: 33 (Points: 0, Polygons: 33)
+    * Estimated Cost: €33.00 / ₹3590.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 30.3151 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 5
+    * Billed Tokens: 33 (Points: 0, Polygons: 33)
+    * Estimated Cost: €33.00 / ₹3590.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a9658308f-2100708176.geojson
+  - Points Count: 0 | Polygons Count: 80
+  - DECLARED AREA BASIS:
+    * Total Area: 497.1760 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 77
+    * Billed Tokens: 552 (Points: 0, Polygons: 552)
+    * Estimated Cost: €552.00 / ₹60057.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 496.0813 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 77
+    * Billed Tokens: 550 (Points: 0, Polygons: 550)
+    * Estimated Cost: €550.00 / ₹59840.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a9658e375-2100707584.geojson
+  - Points Count: 0 | Polygons Count: 162
+  - DECLARED AREA BASIS:
+    * Total Area: 157.7870 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 158
+    * Billed Tokens: 260 (Points: 0, Polygons: 260)
+    * Estimated Cost: €260.00 / ₹28288.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 157.4756 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 158
+    * Billed Tokens: 259 (Points: 0, Polygons: 259)
+    * Estimated Cost: €259.00 / ₹28179.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19a9659d822-2100707542.geojson
+  - Points Count: 0 | Polygons Count: 91
+  - DECLARED AREA BASIS:
+    * Total Area: 569.7600 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 89
+    * Billed Tokens: 622 (Points: 0, Polygons: 622)
+    * Estimated Cost: €622.00 / ₹67673.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 568.5401 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 89
+    * Billed Tokens: 620 (Points: 0, Polygons: 620)
+    * Estimated Cost: €620.00 / ₹67456.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a966980d4-2100705719.geojson
+  - Points Count: 0 | Polygons Count: 225
+  - DECLARED AREA BASIS:
+    * Total Area: 212.5110 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 224
+    * Billed Tokens: 353 (Points: 0, Polygons: 353)
+    * Estimated Cost: €353.00 / ₹38406.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 212.5030 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 224
+    * Billed Tokens: 353 (Points: 0, Polygons: 353)
+    * Estimated Cost: €353.00 / ₹38406.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19a9669fe82-2100705939.geojson
+  - Points Count: 0 | Polygons Count: 122
+  - DECLARED AREA BASIS:
+    * Total Area: 192.7140 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 122
+    * Billed Tokens: 265 (Points: 0, Polygons: 265)
+    * Estimated Cost: €265.00 / ₹28832.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 192.7142 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 122
+    * Billed Tokens: 265 (Points: 0, Polygons: 265)
+    * Estimated Cost: €265.00 / ₹28832.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19a966af997-2100706102.geojson
+  - Points Count: 0 | Polygons Count: 110
+  - DECLARED AREA BASIS:
+    * Total Area: 185.6440 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 108
+    * Billed Tokens: 256 (Points: 0, Polygons: 256)
+    * Estimated Cost: €256.00 / ₹27852.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 185.6426 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 108
+    * Billed Tokens: 256 (Points: 0, Polygons: 256)
+    * Estimated Cost: €256.00 / ₹27852.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19a9acf4485-2100697130.geojson
+  - Points Count: 0 | Polygons Count: 106
+  - DECLARED AREA BASIS:
+    * Total Area: 969.6400 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 106
+    * Billed Tokens: 1018 (Points: 0, Polygons: 1018)
+    * Estimated Cost: €1018.00 / ₹110758.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 967.5343 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 106
+    * Billed Tokens: 1017 (Points: 0, Polygons: 1017)
+    * Estimated Cost: €1017.00 / ₹110649.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19aa58d7d3e-2100705371.geojson
+  - Points Count: 0 | Polygons Count: 158
+  - DECLARED AREA BASIS:
+    * Total Area: 158.7390 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 157
+    * Billed Tokens: 259 (Points: 0, Polygons: 259)
+    * Estimated Cost: €259.00 / ₹28179.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 158.7333 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 157
+    * Billed Tokens: 259 (Points: 0, Polygons: 259)
+    * Estimated Cost: €259.00 / ₹28179.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19aa58e35d6-2100706114.geojson
+  - Points Count: 0 | Polygons Count: 60
+  - DECLARED AREA BASIS:
+    * Total Area: 51.1880 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 59
+    * Billed Tokens: 90 (Points: 0, Polygons: 90)
+    * Estimated Cost: €90.00 / ₹9792.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 51.1899 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 59
+    * Billed Tokens: 90 (Points: 0, Polygons: 90)
+    * Estimated Cost: €90.00 / ₹9792.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19aa58ef7fc-2100706468.geojson
+  - Points Count: 0 | Polygons Count: 128
+  - DECLARED AREA BASIS:
+    * Total Area: 120.8370 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 127
+    * Billed Tokens: 201 (Points: 0, Polygons: 201)
+    * Estimated Cost: €201.00 / ₹21868.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 120.8371 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 127
+    * Billed Tokens: 201 (Points: 0, Polygons: 201)
+    * Estimated Cost: €201.00 / ₹21868.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19ab505c006-2100708175.geojson
+  - Points Count: 0 | Polygons Count: 120
+  - DECLARED AREA BASIS:
+    * Total Area: 114.6200 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 118
+    * Billed Tokens: 191 (Points: 0, Polygons: 191)
+    * Estimated Cost: €191.00 / ₹20780.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 114.5805 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 118
+    * Billed Tokens: 191 (Points: 0, Polygons: 191)
+    * Estimated Cost: €191.00 / ₹20780.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac37eb867-2100700713.geojson
+  - Points Count: 0 | Polygons Count: 2311
+  - DECLARED AREA BASIS:
+    * Total Area: 6575.9500 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2311
+    * Billed Tokens: 7674 (Points: 0, Polygons: 7674)
+    * Estimated Cost: €7674.00 / ₹834931.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 5933.7035 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2311
+    * Billed Tokens: 7098 (Points: 0, Polygons: 7098)
+    * Estimated Cost: €7098.00 / ₹772262.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac474ce98-2100710856.geojson
+  - Points Count: 0 | Polygons Count: 3
+  - DECLARED AREA BASIS:
+    * Total Area: 18.3030 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 3
+    * Billed Tokens: 20 (Points: 0, Polygons: 20)
+    * Estimated Cost: €20.00 / ₹2176.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 18.2616 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 3
+    * Billed Tokens: 20 (Points: 0, Polygons: 20)
+    * Estimated Cost: €20.00 / ₹2176.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac4751a11-2100710552.geojson
+  - Points Count: 0 | Polygons Count: 2
+  - DECLARED AREA BASIS:
+    * Total Area: 127.5660 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 129 (Points: 0, Polygons: 129)
+    * Estimated Cost: €129.00 / ₹14035.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 127.2790 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 2
+    * Billed Tokens: 128 (Points: 0, Polygons: 128)
+    * Estimated Cost: €128.00 / ₹13926.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac4760092-2100709198.geojson
+  - Points Count: 0 | Polygons Count: 212
+  - DECLARED AREA BASIS:
+    * Total Area: 547.1850 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 208
+    * Billed Tokens: 682 (Points: 0, Polygons: 682)
+    * Estimated Cost: €682.00 / ₹74201.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 545.9518 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 208
+    * Billed Tokens: 680 (Points: 0, Polygons: 680)
+    * Estimated Cost: €680.00 / ₹73984.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac4765fc9-2100710069.geojson
+  - Points Count: 0 | Polygons Count: 57
+  - DECLARED AREA BASIS:
+    * Total Area: 231.9590 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 57
+    * Billed Tokens: 266 (Points: 0, Polygons: 266)
+    * Estimated Cost: €266.00 / ₹28940.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 231.4401 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 57
+    * Billed Tokens: 265 (Points: 0, Polygons: 265)
+    * Estimated Cost: €265.00 / ₹28832.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac476cb1b-2100709531.geojson
+  - Points Count: 0 | Polygons Count: 118
+  - DECLARED AREA BASIS:
+    * Total Area: 285.8850 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 114
+    * Billed Tokens: 364 (Points: 0, Polygons: 364)
+    * Estimated Cost: €364.00 / ₹39603.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 285.2443 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 114
+    * Billed Tokens: 363 (Points: 0, Polygons: 363)
+    * Estimated Cost: €363.00 / ₹39494.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac478770b-2100709864.geojson
+  - Points Count: 0 | Polygons Count: 216
+  - DECLARED AREA BASIS:
+    * Total Area: 582.5060 ha
+    * Polygons Breakdown: < 0.03 ha: 6 | >= 0.03 ha: 210
+    * Billed Tokens: 722 (Points: 0, Polygons: 722)
+    * Estimated Cost: €722.00 / ₹78553.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 581.2874 ha
+    * Polygons Breakdown: < 0.03 ha: 6 | >= 0.03 ha: 210
+    * Billed Tokens: 720 (Points: 0, Polygons: 720)
+    * Estimated Cost: €720.00 / ₹78336.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac479ddcc-2100709774.geojson
+  - Points Count: 0 | Polygons Count: 191
+  - DECLARED AREA BASIS:
+    * Total Area: 161.1450 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 187
+    * Billed Tokens: 277 (Points: 0, Polygons: 277)
+    * Estimated Cost: €277.00 / ₹30137.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 160.8657 ha
+    * Polygons Breakdown: < 0.03 ha: 4 | >= 0.03 ha: 187
+    * Billed Tokens: 277 (Points: 0, Polygons: 277)
+    * Estimated Cost: €277.00 / ₹30137.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac47a4708-2100709576.geojson
+  - Points Count: 0 | Polygons Count: 135
+  - DECLARED AREA BASIS:
+    * Total Area: 104.2610 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 134
+    * Billed Tokens: 178 (Points: 0, Polygons: 178)
+    * Estimated Cost: €178.00 / ₹19366.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 104.0835 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 134
+    * Billed Tokens: 178 (Points: 0, Polygons: 178)
+    * Estimated Cost: €178.00 / ₹19366.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac47ac5c4-2100708489.geojson
+  - Points Count: 0 | Polygons Count: 168
+  - DECLARED AREA BASIS:
+    * Total Area: 212.1390 ha
+    * Polygons Breakdown: < 0.03 ha: 5 | >= 0.03 ha: 163
+    * Billed Tokens: 318 (Points: 0, Polygons: 318)
+    * Estimated Cost: €318.00 / ₹34598.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 211.7470 ha
+    * Polygons Breakdown: < 0.03 ha: 5 | >= 0.03 ha: 163
+    * Billed Tokens: 316 (Points: 0, Polygons: 316)
+    * Estimated Cost: €316.00 / ₹34380.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac47bf4b1-2100708601.geojson
+  - Points Count: 0 | Polygons Count: 126
+  - DECLARED AREA BASIS:
+    * Total Area: 89.9740 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 126
+    * Billed Tokens: 158 (Points: 0, Polygons: 158)
+    * Estimated Cost: €158.00 / ₹17190.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 89.9749 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 126
+    * Billed Tokens: 158 (Points: 0, Polygons: 158)
+    * Estimated Cost: €158.00 / ₹17190.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac47d4c83-2100707966.geojson
+  - Points Count: 0 | Polygons Count: 122
+  - DECLARED AREA BASIS:
+    * Total Area: 115.6390 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 120
+    * Billed Tokens: 186 (Points: 0, Polygons: 186)
+    * Estimated Cost: €186.00 / ₹20236.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 115.6052 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 120
+    * Billed Tokens: 186 (Points: 0, Polygons: 186)
+    * Estimated Cost: €186.00 / ₹20236.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19ac47ddc23-2100708463.geojson
+  - Points Count: 0 | Polygons Count: 129
+  - DECLARED AREA BASIS:
+    * Total Area: 97.4700 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 127
+    * Billed Tokens: 178 (Points: 0, Polygons: 178)
+    * Estimated Cost: €178.00 / ₹19366.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 97.4579 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 127
+    * Billed Tokens: 178 (Points: 0, Polygons: 178)
+    * Estimated Cost: €178.00 / ₹19366.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd509c94-APOLLO-SI-247.geojson
+  - Points Count: 0 | Polygons Count: 228
+  - DECLARED AREA BASIS:
+    * Total Area: 1902.2300 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 228
+    * Billed Tokens: 2000 (Points: 0, Polygons: 2000)
+    * Estimated Cost: €2000.00 / ₹217600.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1899.0153 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 228
+    * Billed Tokens: 1998 (Points: 0, Polygons: 1998)
+    * Estimated Cost: €1998.00 / ₹217382.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd69428a-Geojson-Apollo-SI-249.geojson
+  - Points Count: 0 | Polygons Count: 211
+  - DECLARED AREA BASIS:
+    * Total Area: 1909.1600 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 211
+    * Billed Tokens: 1994 (Points: 0, Polygons: 1994)
+    * Estimated Cost: €1994.00 / ₹216947.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1905.8927 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 211
+    * Billed Tokens: 1991 (Points: 0, Polygons: 1991)
+    * Estimated Cost: €1991.00 / ₹216620.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd779706-APOLLO-SI-279.geojson
+  - Points Count: 0 | Polygons Count: 334
+  - DECLARED AREA BASIS:
+    * Total Area: 1345.2600 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 334
+    * Billed Tokens: 1492 (Points: 0, Polygons: 1492)
+    * Estimated Cost: €1492.00 / ₹162329.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1343.7587 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 334
+    * Billed Tokens: 1494 (Points: 0, Polygons: 1494)
+    * Estimated Cost: €1494.00 / ₹162547.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd79a0a8-Apollo-SI-280.geojson
+  - Points Count: 0 | Polygons Count: 396
+  - DECLARED AREA BASIS:
+    * Total Area: 1459.1900 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 396
+    * Billed Tokens: 1626 (Points: 0, Polygons: 1626)
+    * Estimated Cost: €1626.00 / ₹176908.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1457.7074 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 396
+    * Billed Tokens: 1627 (Points: 0, Polygons: 1627)
+    * Estimated Cost: €1627.00 / ₹177017.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd811a39-APOLLO-SI-305.geojson
+  - Points Count: 0 | Polygons Count: 287
+  - DECLARED AREA BASIS:
+    * Total Area: 1552.5700 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 287
+    * Billed Tokens: 1677 (Points: 0, Polygons: 1677)
+    * Estimated Cost: €1677.00 / ₹182457.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1550.3753 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 287
+    * Billed Tokens: 1677 (Points: 0, Polygons: 1677)
+    * Estimated Cost: €1677.00 / ₹182457.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd82c23b-Apollo-SI-306.geojson
+  - Points Count: 0 | Polygons Count: 229
+  - DECLARED AREA BASIS:
+    * Total Area: 5318.4400 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 229
+    * Billed Tokens: 5427 (Points: 0, Polygons: 5427)
+    * Estimated Cost: €5427.00 / ₹590457.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 5947.0192 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 229
+    * Billed Tokens: 6059 (Points: 0, Polygons: 6059)
+    * Estimated Cost: €6059.00 / ₹659219.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd87afbd-APOLLO-SI-250.geojson
+  - Points Count: 0 | Polygons Count: 477
+  - DECLARED AREA BASIS:
+    * Total Area: 2144.7500 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 477
+    * Billed Tokens: 2355 (Points: 0, Polygons: 2355)
+    * Estimated Cost: €2355.00 / ₹256224.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2142.0202 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 477
+    * Billed Tokens: 2357 (Points: 0, Polygons: 2357)
+    * Estimated Cost: €2357.00 / ₹256441.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd88cda0-Apollo-SI-251.geojson
+  - Points Count: 0 | Polygons Count: 269
+  - DECLARED AREA BASIS:
+    * Total Area: 1805.8600 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 269
+    * Billed Tokens: 1925 (Points: 0, Polygons: 1925)
+    * Estimated Cost: €1925.00 / ₹209440.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1803.0808 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 269
+    * Billed Tokens: 1924 (Points: 0, Polygons: 1924)
+    * Estimated Cost: €1924.00 / ₹209331.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd8ab25c-APOLLO-SI-277.geojson
+  - Points Count: 0 | Polygons Count: 144
+  - DECLARED AREA BASIS:
+    * Total Area: 5694.0900 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 144
+    * Billed Tokens: 5764 (Points: 0, Polygons: 5764)
+    * Estimated Cost: €5764.00 / ₹627123.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 6321.5034 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 144
+    * Billed Tokens: 6390 (Points: 0, Polygons: 6390)
+    * Estimated Cost: €6390.00 / ₹695232.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd8c4059-APOLLO-SI-278.geojson
+  - Points Count: 0 | Polygons Count: 335
+  - DECLARED AREA BASIS:
+    * Total Area: 5798.8200 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 335
+    * Billed Tokens: 5971 (Points: 0, Polygons: 5971)
+    * Estimated Cost: €5971.00 / ₹649644.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 6426.7025 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 335
+    * Billed Tokens: 6603 (Points: 0, Polygons: 6603)
+    * Estimated Cost: €6603.00 / ₹718406.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd8f07e5-Apollo-SI-318.geojson
+  - Points Count: 0 | Polygons Count: 64
+  - DECLARED AREA BASIS:
+    * Total Area: 1261.4600 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 64
+    * Billed Tokens: 1300 (Points: 0, Polygons: 1300)
+    * Estimated Cost: €1300.00 / ₹141440.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1258.9585 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 64
+    * Billed Tokens: 1298 (Points: 0, Polygons: 1298)
+    * Estimated Cost: €1298.00 / ₹141222.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19acd91f898-Apollo-SI-319.geojson
+  - Points Count: 0 | Polygons Count: 342
+  - DECLARED AREA BASIS:
+    * Total Area: 566.2300 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 342
+    * Billed Tokens: 714 (Points: 0, Polygons: 714)
+    * Estimated Cost: €714.00 / ₹77683.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 566.4554 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 342
+    * Billed Tokens: 714 (Points: 0, Polygons: 714)
+    * Estimated Cost: €714.00 / ₹77683.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19ad92942e3-2100706957.geojson
+  - Points Count: 0 | Polygons Count: 211
+  - DECLARED AREA BASIS:
+    * Total Area: 52.6870 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 208
+    * Billed Tokens: 226 (Points: 0, Polygons: 226)
+    * Estimated Cost: €226.00 / ₹24588.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 52.6898 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 208
+    * Billed Tokens: 226 (Points: 0, Polygons: 226)
+    * Estimated Cost: €226.00 / ₹24588.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19ad929bb69-2100706668.geojson
+  - Points Count: 0 | Polygons Count: 153
+  - DECLARED AREA BASIS:
+    * Total Area: 56.0460 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 152
+    * Billed Tokens: 168 (Points: 0, Polygons: 168)
+    * Estimated Cost: €168.00 / ₹18278.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 56.0424 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 152
+    * Billed Tokens: 168 (Points: 0, Polygons: 168)
+    * Estimated Cost: €168.00 / ₹18278.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19ad92b8c93-2100707732.geojson
+  - Points Count: 0 | Polygons Count: 123
+  - DECLARED AREA BASIS:
+    * Total Area: 83.3700 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 121
+    * Billed Tokens: 156 (Points: 0, Polygons: 156)
+    * Estimated Cost: €156.00 / ₹16972.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 83.3623 ha
+    * Polygons Breakdown: < 0.03 ha: 2 | >= 0.03 ha: 121
+    * Billed Tokens: 156 (Points: 0, Polygons: 156)
+    * Estimated Cost: €156.00 / ₹16972.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19ad92bfb0f-2100707362.geojson
+  - Points Count: 0 | Polygons Count: 134
+  - DECLARED AREA BASIS:
+    * Total Area: 86.9920 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 133
+    * Billed Tokens: 167 (Points: 0, Polygons: 167)
+    * Estimated Cost: €167.00 / ₹18169.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 86.9839 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 133
+    * Billed Tokens: 167 (Points: 0, Polygons: 167)
+    * Estimated Cost: €167.00 / ₹18169.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19ae6e5324b-RW_120020E_2100693052_20250811_09_KBK.geojson
+  - Points Count: 0 | Polygons Count: 269
+  - DECLARED AREA BASIS:
+    * Total Area: 2690.8200 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 269
+    * Billed Tokens: 2849 (Points: 0, Polygons: 2849)
+    * Estimated Cost: €2849.00 / ₹309971.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2684.7295 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 269
+    * Billed Tokens: 2828 (Points: 0, Polygons: 2828)
+    * Estimated Cost: €2828.00 / ₹307686.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19ae6e8d041-RW_120020E_2100693053_20250811-12_KBK.geojson
+  - Points Count: 0 | Polygons Count: 266
+  - DECLARED AREA BASIS:
+    * Total Area: 2427.7600 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 266
+    * Billed Tokens: 2584 (Points: 0, Polygons: 2584)
+    * Estimated Cost: €2584.00 / ₹281139.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2422.3339 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 266
+    * Billed Tokens: 2571 (Points: 0, Polygons: 2571)
+    * Estimated Cost: €2571.00 / ₹279724.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19ae6ebf857-RW_120020E_2100694469_20250820-21_KBK.geojson
+  - Points Count: 0 | Polygons Count: 207
+  - DECLARED AREA BASIS:
+    * Total Area: 2319.1900 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 207
+    * Billed Tokens: 2442 (Points: 0, Polygons: 2442)
+    * Estimated Cost: €2442.00 / ₹265689.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2314.0092 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 207
+    * Billed Tokens: 2427 (Points: 0, Polygons: 2427)
+    * Estimated Cost: €2427.00 / ₹264057.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19aed6968c7-HG_SGO_20251114_2100700705.geojson
+  - Points Count: 4575 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 4980.2000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 18300 (Points: 18300, Polygons: 0)
+    * Estimated Cost: €18300.00 / ₹1991040.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 4980.2000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 18300 (Points: 18300, Polygons: 0)
+    * Estimated Cost: €18300.00 / ₹1991040.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19af853f23d-2100700707.geojson
+  - Points Count: 0 | Polygons Count: 147
+  - DECLARED AREA BASIS:
+    * Total Area: 990.2200 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 147
+    * Billed Tokens: 1067 (Points: 0, Polygons: 1067)
+    * Estimated Cost: €1067.00 / ₹116089.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 988.0429 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 147
+    * Billed Tokens: 1067 (Points: 0, Polygons: 1067)
+    * Estimated Cost: €1067.00 / ₹116089.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19b20e40e60-HG_SCL_20251108_2100700703.geojson
+  - Points Count: 2467 | Polygons Count: 114
+  - DECLARED AREA BASIS:
+    * Total Area: 2802.2000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 114
+    * Billed Tokens: 10014 (Points: 9868, Polygons: 146)
+    * Estimated Cost: €10014.00 / ₹1089523.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2801.4975 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 114
+    * Billed Tokens: 10014 (Points: 9868, Polygons: 146)
+    * Estimated Cost: €10014.00 / ₹1089523.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19b20e651ab-HG_SCL_20251117_2100700704.geojson
+  - Points Count: 2292 | Polygons Count: 201
+  - DECLARED AREA BASIS:
+    * Total Area: 2742.1000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 201
+    * Billed Tokens: 9460 (Points: 9168, Polygons: 292)
+    * Estimated Cost: €9460.00 / ₹1029248.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2741.1842 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 201
+    * Billed Tokens: 9472 (Points: 9168, Polygons: 304)
+    * Estimated Cost: €9472.00 / ₹1030553.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19b3629d7fc-2100710055.geojson
+  - Points Count: 0 | Polygons Count: 118
+  - DECLARED AREA BASIS:
+    * Total Area: 72.5100 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 117
+    * Billed Tokens: 142 (Points: 0, Polygons: 142)
+    * Estimated Cost: €142.00 / ₹15449.60
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 72.5124 ha
+    * Polygons Breakdown: < 0.03 ha: 1 | >= 0.03 ha: 117
+    * Billed Tokens: 142 (Points: 0, Polygons: 142)
+    * Estimated Cost: €142.00 / ₹15449.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19b362a868b-2100707007.geojson
+  - Points Count: 0 | Polygons Count: 126
+  - DECLARED AREA BASIS:
+    * Total Area: 94.4490 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 123
+    * Billed Tokens: 176 (Points: 0, Polygons: 176)
+    * Estimated Cost: €176.00 / ₹19148.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 94.4411 ha
+    * Polygons Breakdown: < 0.03 ha: 3 | >= 0.03 ha: 123
+    * Billed Tokens: 176 (Points: 0, Polygons: 176)
+    * Estimated Cost: €176.00 / ₹19148.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19b8dab4f0f-APOLLO-SI_289.geojson
+  - Points Count: 0 | Polygons Count: 128
+  - DECLARED AREA BASIS:
+    * Total Area: 910.8700 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 128
+    * Billed Tokens: 974 (Points: 0, Polygons: 974)
+    * Estimated Cost: €974.00 / ₹105971.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 908.8803 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 128
+    * Billed Tokens: 973 (Points: 0, Polygons: 973)
+    * Estimated Cost: €973.00 / ₹105862.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19b90d87e55-APOLLO-SI_290.geojson
+  - Points Count: 0 | Polygons Count: 104
+  - DECLARED AREA BASIS:
+    * Total Area: 1899.2200 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 104
+    * Billed Tokens: 1954 (Points: 0, Polygons: 1954)
+    * Estimated Cost: €1954.00 / ₹212595.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1894.9335 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 104
+    * Billed Tokens: 1950 (Points: 0, Polygons: 1950)
+    * Estimated Cost: €1950.00 / ₹212160.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19b90f3d6a7-APOLLO-SI_224.geojson
+  - Points Count: 0 | Polygons Count: 160
+  - DECLARED AREA BASIS:
+    * Total Area: 941.8800 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 160
+    * Billed Tokens: 1020 (Points: 0, Polygons: 1020)
+    * Estimated Cost: €1020.00 / ₹110976.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 939.8130 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 160
+    * Billed Tokens: 1021 (Points: 0, Polygons: 1021)
+    * Estimated Cost: €1021.00 / ₹111084.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19b9b513d50-HG_SCL_20251222_2100707070.geojson
+  - Points Count: 1847 | Polygons Count: 200
+  - DECLARED AREA BASIS:
+    * Total Area: 2489.7000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 200
+    * Billed Tokens: 7765 (Points: 7388, Polygons: 377)
+    * Estimated Cost: €7765.00 / ₹844832.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2486.2780 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 200
+    * Billed Tokens: 7782 (Points: 7388, Polygons: 394)
+    * Estimated Cost: €7782.00 / ₹846681.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19bda52446e-APOLLO_SI_403.geojson
+  - Points Count: 0 | Polygons Count: 103
+  - DECLARED AREA BASIS:
+    * Total Area: 5755.7400 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 103
+    * Billed Tokens: 5795 (Points: 0, Polygons: 5795)
+    * Estimated Cost: €5795.00 / ₹630496.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 6382.8094 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 103
+    * Billed Tokens: 6425 (Points: 0, Polygons: 6425)
+    * Estimated Cost: €6425.00 / ₹699040.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19bda575309-APOLLO-_SI_415.geojson
+  - Points Count: 0 | Polygons Count: 6
+  - DECLARED AREA BASIS:
+    * Total Area: 1573.6100 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 6
+    * Billed Tokens: 1578 (Points: 0, Polygons: 1578)
+    * Estimated Cost: €1578.00 / ₹171686.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1570.1402 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 6
+    * Billed Tokens: 1573 (Points: 0, Polygons: 1573)
+    * Estimated Cost: €1573.00 / ₹171142.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19bdb670932-HG_SCL_20251230_2100707071.geojson
+  - Points Count: 2206 | Polygons Count: 277
+  - DECLARED AREA BASIS:
+    * Total Area: 2869.3000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 277
+    * Billed Tokens: 9288 (Points: 8824, Polygons: 464)
+    * Estimated Cost: €9288.00 / ₹1010534.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 2867.5470 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 277
+    * Billed Tokens: 9307 (Points: 8824, Polygons: 483)
+    * Estimated Cost: €9307.00 / ₹1012601.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19c4014d605-2100707203.geojson
+  - Points Count: 0 | Polygons Count: 148
+  - DECLARED AREA BASIS:
+    * Total Area: 895.0400 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 148
+    * Billed Tokens: 971 (Points: 0, Polygons: 971)
+    * Estimated Cost: €971.00 / ₹105644.80
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 893.0388 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 148
+    * Billed Tokens: 968 (Points: 0, Polygons: 968)
+    * Estimated Cost: €968.00 / ₹105318.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19c9cc361a7-RW_120020E_2100707081_20251202-03_KBK.geojson
+  - Points Count: 0 | Polygons Count: 266
+  - DECLARED AREA BASIS:
+    * Total Area: 1090.2900 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 266
+    * Billed Tokens: 1238 (Points: 0, Polygons: 1238)
+    * Estimated Cost: €1238.00 / ₹134694.40
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1087.8737 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 266
+    * Billed Tokens: 1232 (Points: 0, Polygons: 1232)
+    * Estimated Cost: €1232.00 / ₹134041.60
+--------------------------------------------------------------------------------
+Submission File: apollo-19c9ce14c19-HG_SDQ_20251230_2100707201.geojson
+  - Points Count: 352 | Polygons Count: 6
+  - DECLARED AREA BASIS:
+    * Total Area: 1745.9000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 6
+    * Billed Tokens: 2815 (Points: 1408, Polygons: 1407)
+    * Estimated Cost: €2815.00 / ₹306272.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1878.0866 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 6
+    * Billed Tokens: 2948 (Points: 1408, Polygons: 1540)
+    * Estimated Cost: €2948.00 / ₹320742.40
+--------------------------------------------------------------------------------
+Submission File: apollo-19c9ce4c436-HG_SDQ_20251229_2100707200.geojson
+  - Points Count: 1066 | Polygons Count: 18
+  - DECLARED AREA BASIS:
+    * Total Area: 1087.2000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 18
+    * Billed Tokens: 4285 (Points: 4264, Polygons: 21)
+    * Estimated Cost: €4285.00 / ₹466208.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1087.3963 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 18
+    * Billed Tokens: 4286 (Points: 4264, Polygons: 22)
+    * Estimated Cost: €4286.00 / ₹466316.80
+--------------------------------------------------------------------------------
+Submission File: apollo-19e90cbdd77-HG_SDQ_20250927_2100697120.geojson
+  - Points Count: 1190 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 1177.3000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 4760 (Points: 4760, Polygons: 0)
+    * Estimated Cost: €4760.00 / ₹517888.00
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 1177.3000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 4760 (Points: 4760, Polygons: 0)
+    * Estimated Cost: €4760.00 / ₹517888.00
+--------------------------------------------------------------------------------
+Submission File: apollo-19e90eb2441-HG_SGO_20251230_2100707066.geojson
+  - Points Count: 3191 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 3684.9000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 12764 (Points: 12764, Polygons: 0)
+    * Estimated Cost: €12764.00 / ₹1388723.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 3684.9000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 12764 (Points: 12764, Polygons: 0)
+    * Estimated Cost: €12764.00 / ₹1388723.20
+--------------------------------------------------------------------------------
+Submission File: apollo-19e90f08e23-HG_SGO_20251210_2100707064(1).geojson
+  - Points Count: 3651 | Polygons Count: 0
+  - DECLARED AREA BASIS:
+    * Total Area: 4756.7000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 14604 (Points: 14604, Polygons: 0)
+    * Estimated Cost: €14604.00 / ₹1588915.20
+  - GEOMETRY CALCULATED BASIS:
+    * Total Area: 4756.7000 ha
+    * Polygons Breakdown: < 0.03 ha: 0 | >= 0.03 ha: 0
+    * Billed Tokens: 14604 (Points: 14604, Polygons: 0)
+    * Estimated Cost: €14604.00 / ₹1588915.20
+--------------------------------------------------------------------------------

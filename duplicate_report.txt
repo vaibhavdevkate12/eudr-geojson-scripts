@@ -1,0 +1,79 @@
+================================================================================
+GEOJSON FILE DUPLICATION REPORT
+Date: 2026-07-02T09:30:00.155Z
+================================================================================
+
+Total Files Checked: 194
+Total Unique Files: 167
+Total Duplicate Files: 27
+Total Duplicate Groups: 13
+
+================================================================================
+DUPLICATE GROUPS DETAILS
+================================================================================
+
+Group #1 (Hash: c1275dbf46b96826e93117089805a6256564d043ba7c1ec769f5ed4bfc3b405d):
+  - apollo-19a162a8233-2100699318.geojson (44165 bytes)
+  - apollo-19a19c219f4-2100699318.geojson (44165 bytes)
+
+Group #2 (Hash: 8bb7ed991dded96f54e30ef830e0bd659d73a93ace080edecc10eecc2fab9f2b):
+  - apollo-19a19c50879-2100699120.geojson (69860 bytes)
+  - apollo-19a19c5efcd-2100698489.geojson (69860 bytes)
+  - apollo-19a19c8ccc5-2100698603.geojson (69860 bytes)
+
+Group #3 (Hash: 9ec360d8ba8e209565167382fe3bfefdbd526e43055f9e8879e48f4290ce66f2):
+  - apollo-19a19c6d1a6-2100697970.geojson (53785 bytes)
+  - apollo-19a19ca885d-2100698186.geojson (53785 bytes)
+
+Group #4 (Hash: 6f24d7bd822a30179ce81f98e1e678fef97be24146c0f8270fd0cdc1ac5244eb):
+  - apollo-19a19c7914a-2100700278.geojson (43018 bytes)
+  - apollo-19a19c95678-2100698336.geojson (43018 bytes)
+  - apollo-19a19c9d6e0-2100698187.geojson (43018 bytes)
+  - apollo-19a19db7876-2100700473.geojson (43018 bytes)
+  - apollo-19a19dcf3a8-2100700337.geojson (43018 bytes)
+
+Group #5 (Hash: 12f94ddfd0415fd969490159cddb622b99e1b10e88aa62e41f6e2e6d5f3f0392):
+  - apollo-19a19ce9747-2100703547.geojson (59717 bytes)
+  - apollo-19a19d1bad7-2100703258.geojson (59717 bytes)
+  - apollo-19a19d2368c-2100703154.geojson (59717 bytes)
+  - apollo-19a19d32ad4-2100703153.geojson (59717 bytes)
+  - apollo-19a19d3bbfe-2100701548.geojson (59717 bytes)
+  - apollo-19a19d6ada0-2100701546.geojson (59717 bytes)
+  - apollo-19a19d74ddc-2100700951.geojson (59717 bytes)
+  - apollo-19a19d7e5a5-2100700807.geojson (59717 bytes)
+  - apollo-19a19d8b328-2100700629.geojson (59717 bytes)
+  - apollo-19a19d9c76c-2100700582.geojson (59717 bytes)
+  - apollo-19ac4759055-2100708659.geojson (59717 bytes)
+
+Group #6 (Hash: 8f2f1bff7bc867465489d9c29e5fb8623a04b1902f4d36243edb684fb1cfa864):
+  - apollo-19a5daa70d1-2100696418.geojson (1238697 bytes)
+  - apollo-19a5dc3909d-2100693044.geojson (1238697 bytes)
+
+Group #7 (Hash: ec4dccf2b3eba591b384f6f1e85863032e0fdadc13d9a19ccd4c58b60c8c60aa):
+  - apollo-19a5dbcc09d-2100707085.geojson (27807 bytes)
+  - apollo-19a5dbd6ccc-2100706965.geojson (27807 bytes)
+
+Group #8 (Hash: 738fea548ffd71f4ac606fe73e5d721a35181a3aacab9b3f5c1898767085fc63):
+  - apollo-19a7bdf67f5-HG_KBQ_20250809_2100693046.geojson (1863110 bytes)
+  - apollo-19a7be2c12b-HG_KBQ_20250808_2100693045.geojson (1863110 bytes)
+  - apollo-19a7be52ce5-HG_KBQ_20250807_2100693047.geojson (1863110 bytes)
+
+Group #9 (Hash: 43a837baccf9e553b4e4930a7024daba9fa86767ecaa78b1fad62e2ce285fd00):
+  - apollo-19a7c1fb334-HG_KBQ_20250825_2100693553.geojson (974682 bytes)
+  - apollo-19a7c2826ee-HG_KBQ_20250826_2100694413.geojson (974682 bytes)
+
+Group #10 (Hash: 779ce3fb63e74e331721f3ef3c74fa851068dbc6cfd9e1c9a490da3b0b742c8b):
+  - apollo-19a7c5ebd8c-HG_KBQ_20250923_2100695754.geojson (702404 bytes)
+  - apollo-19a7c6256c2-HG_KBQ_20250924_2100695756-.geojson (702404 bytes)
+
+Group #11 (Hash: 25382c0ecf3af3795ad2ede77a7969a27e083d9b3fd62ab09239d8024f9976cc):
+  - apollo-19ac37eb867-2100700713.geojson (2209505 bytes)
+  - apollo-19ac3825045-2100700712-.geojson (2209505 bytes)
+
+Group #12 (Hash: a96d6868bf1d1a7b2b2a8aa2b2c3b1ff2463bb3f83d9686737bbc11f8303dfa1):
+  - apollo-19ae6ebf857-RW_120020E_2100694469_20250820-21_KBK.geojson (64613 bytes)
+  - apollo-19ae6ecc4a5-RW_120020E_2100694469_20250820-21_KBK.geojson (64613 bytes)
+
+Group #13 (Hash: afc1f7d8c43ecd8b443a28d5bae34b8a380105a61f00f47db53314d4a3d04acc):
+  - apollo-19aed6968c7-HG_SGO_20251114_2100700705.geojson (1577518 bytes)
+  - apollo-19aed6b0e86-HG_SGO_20251115_2100700706.geojson (1577518 bytes)
