@@ -37,7 +37,7 @@ interface FileSummary {
   polygonLargeCountDec: number; // >= 0.03 ha
   totalDeclaredAreaPoints: number;
   totalDeclaredAreaPolygons: number;
-  declaredTokensPoints: number; // sum of (flat 4 tokens per point feature)
+  declaredTokensPoints: number; // sum of (4 for small point/multipoint, Math.ceil(Area) for large point/multipoint)
   declaredTokensPolygons: number; // sum of (4 for small poly, Math.ceil(Area) for large poly)
   
   // Calculated Area (from turf.area)
@@ -125,13 +125,18 @@ function runTokenEstimation() {
               areaDec = parsed;
             }
           }
+        } else if (geomType === 'Point' || geomType === 'MultiPoint') {
+          areaDec = 4; // Default to 4 hectares if not provided
         }
         
         if (geomType === 'Point' || geomType === 'MultiPoint') {
           pointCount++;
           totalDeclaredAreaPoints += areaDec;
-          // Rule: Points are flat 4 tokens per point feature
-          declaredTokensPoints += 4;
+          if (areaDec < 0.03) {
+            declaredTokensPoints += 4;
+          } else {
+            declaredTokensPoints += Math.ceil(areaDec);
+          }
         } else if (geomType === 'Polygon' || geomType === 'MultiPolygon') {
           polygonCount++;
           totalDeclaredAreaPolygons += areaDec;
@@ -276,7 +281,7 @@ function generateReportAndSummary(summaries: FileSummary[], skippedCount: number
     `Total Features: ${totalPoints + totalPolygons} (Points: ${totalPoints}, Polygons: ${totalPolygons})`,
     '',
     `GLOBAL FEATURE COUNTS:`,
-    `- Total Point Features (billed flat 4 tokens each): ${totalPoints}`,
+    `- Total Point Features (billed similar to polygon based on area): ${totalPoints}`,
     `- Total Polygon Features: ${totalPolygons}`,
     `  * Declared Basis:   < 0.03 ha: ${totalPolySmallDec} | >= 0.03 ha: ${totalPolyLargeDec}`,
     `  * Calculated Basis: < 0.03 ha: ${totalPolySmallCalc} | >= 0.03 ha: ${totalPolyLargeCalc}`,

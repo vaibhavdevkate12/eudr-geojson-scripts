@@ -1,4 +1,28 @@
+# Dependencies
 /node_modules
+ui/node_modules
+
+# Next.js Build Outputs & Cache
+ui/.next/
+ui/out/
+ui/build/
+.next/
+
+# Data Files & Bulk Samples
 /geojson
 /samples
+/test_cases
 
+# Generated Reports & PDFs
+*.pdf
+*.txt
+!README.txt
+
+# OS & Environment Files
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
