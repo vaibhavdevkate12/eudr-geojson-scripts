@@ -16,6 +16,7 @@ interface ValidationViewProps {
 export const ValidationView: React.FC<ValidationViewProps> = ({ validations }) => {
   const [expandedFiles, setExpandedFiles] = useState<Record<string, boolean>>({});
   const [statusFilter, setStatusFilter] = useState<'all' | 'pass' | 'fail'>('all');
+  const [copiedFile, setCopiedFile] = useState<string | null>(null);
 
   const totalFiles = validations.length;
   const passedFiles = validations.filter((v) => v.result?.valid && !v.rawError).length;
@@ -32,6 +33,77 @@ export const ValidationView: React.FC<ValidationViewProps> = ({ validations }) =
     if (statusFilter === 'fail') return !isValid;
     return true;
   });
+
+  const formatErrorsAsText = (item: FileValidationItem): string => {
+    const lines: string[] = [];
+    lines.push(`EUDR GeoJSON Validation Errors`);
+    lines.push(`====================================`);
+    lines.push(`File: ${item.fileName}`);
+    lines.push(`Total Features: ${item.result?.summary?.totalFeatures ?? 0}`);
+    lines.push(`Error Count: ${item.result?.summary?.errorCount || (item.rawError ? 1 : 0)}`);
+    lines.push(`------------------------------------`);
+
+    if (item.rawError) {
+      lines.push(`[Fatal Error] ${item.rawError}`);
+    } else if (item.result?.errors) {
+      item.result.errors.forEach((err, idx) => {
+        const featStr = err.featureIndex !== undefined ? ` [Feature #${err.featureIndex}]` : '';
+        lines.push(`${idx + 1}. Path: ${err.path}${featStr}`);
+        lines.push(`   Message: ${err.message}`);
+      });
+    }
+    return lines.join('\n');
+  };
+
+  const handleCopyErrors = (e: React.MouseEvent, item: FileValidationItem) => {
+    e.stopPropagation();
+    const errorText = formatErrorsAsText(item);
+    navigator.clipboard.writeText(errorText);
+    setCopiedFile(item.fileName);
+    setTimeout(() => setCopiedFile(null), 2000);
+  };
+
+  const handleDownloadErrors = (e: React.MouseEvent, item: FileValidationItem) => {
+    e.stopPropagation();
+    const errorText = formatErrorsAsText(item);
+    const blob = new Blob([errorText], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `Validation_Errors_${item.fileName.replace(/\.geojson|\.json/gi, '')}.txt`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
+
+  const handleDownloadAllErrors = () => {
+    const failedItems = validations.filter((v) => !(v.result?.valid && !v.rawError));
+    if (failedItems.length === 0) return;
+
+    const lines: string[] = [];
+    lines.push(`EUDR GeoJSON Validation Errors Summary`);
+    lines.push(`Generated: ${new Date().toLocaleString()}`);
+    lines.push(`Failed Files Count: ${failedItems.length}`);
+    lines.push(`====================================\n`);
+
+    failedItems.forEach((item, idx) => {
+      lines.push(`[File #${idx + 1}] ${item.fileName}`);
+      lines.push(formatErrorsAsText(item));
+      lines.push(`\n------------------------------------\n`);
+    });
+
+    const errorText = lines.join('\n');
+    const blob = new Blob([errorText], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `EUDR_All_Validation_Errors_${Date.now()}.txt`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  };
 
   return (
     <div className="space-y-5 font-sans">
@@ -65,31 +137,42 @@ export const ValidationView: React.FC<ValidationViewProps> = ({ validations }) =
             Validation Report Details
           </h3>
 
-          <div className="flex items-center gap-1 bg-slate-200/60 p-1 rounded-lg text-xs font-medium text-slate-600">
-            <button
-              onClick={() => setStatusFilter('all')}
-              className={`px-3 py-1 rounded transition-all cursor-pointer ${
-                statusFilter === 'all' ? 'bg-white text-slate-900 shadow-2xs font-semibold' : 'hover:text-slate-900'
-              }`}
-            >
-              All ({totalFiles})
-            </button>
-            <button
-              onClick={() => setStatusFilter('pass')}
-              className={`px-3 py-1 rounded transition-all cursor-pointer ${
-                statusFilter === 'pass' ? 'bg-white text-emerald-700 shadow-2xs font-semibold' : 'hover:text-slate-900'
-              }`}
-            >
-              Passed ({passedFiles})
-            </button>
-            <button
-              onClick={() => setStatusFilter('fail')}
-              className={`px-3 py-1 rounded transition-all cursor-pointer ${
-                statusFilter === 'fail' ? 'bg-white text-red-700 shadow-2xs font-semibold' : 'hover:text-slate-900'
-              }`}
-            >
-              Failed ({failedFiles})
-            </button>
+          <div className="flex flex-wrap items-center gap-2">
+            {failedFiles > 0 && (
+              <button
+                onClick={handleDownloadAllErrors}
+                className="px-3 py-1 bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 rounded text-xs font-semibold transition-all cursor-pointer"
+              >
+                Download All Errors (.txt)
+              </button>
+            )}
+
+            <div className="flex items-center gap-1 bg-slate-200/60 p-1 rounded-lg text-xs font-medium text-slate-600">
+              <button
+                onClick={() => setStatusFilter('all')}
+                className={`px-3 py-1 rounded transition-all cursor-pointer ${
+                  statusFilter === 'all' ? 'bg-white text-slate-900 shadow-2xs font-semibold' : 'hover:text-slate-900'
+                }`}
+              >
+                All ({totalFiles})
+              </button>
+              <button
+                onClick={() => setStatusFilter('pass')}
+                className={`px-3 py-1 rounded transition-all cursor-pointer ${
+                  statusFilter === 'pass' ? 'bg-white text-emerald-700 shadow-2xs font-semibold' : 'hover:text-slate-900'
+                }`}
+              >
+                Passed ({passedFiles})
+              </button>
+              <button
+                onClick={() => setStatusFilter('fail')}
+                className={`px-3 py-1 rounded transition-all cursor-pointer ${
+                  statusFilter === 'fail' ? 'bg-white text-red-700 shadow-2xs font-semibold' : 'hover:text-slate-900'
+                }`}
+              >
+                Failed ({failedFiles})
+              </button>
+            </div>
           </div>
         </div>
 
@@ -119,8 +202,24 @@ export const ValidationView: React.FC<ValidationViewProps> = ({ validations }) =
                     <span className="font-mono text-xs font-medium text-slate-800 truncate">{item.fileName}</span>
                   </div>
 
-                  <div className="flex items-center gap-4 text-xs text-slate-500 shrink-0">
-                    <span className="font-mono">{item.result?.summary?.totalFeatures ?? 0} features</span>
+                  <div className="flex items-center gap-3 text-xs shrink-0">
+                    {!isValid && (
+                      <div className="flex items-center gap-2">
+                        <button
+                          onClick={(e) => handleCopyErrors(e, item)}
+                          className="px-2 py-0.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded text-[11px] font-medium border border-slate-200 transition-all cursor-pointer"
+                        >
+                          {copiedFile === item.fileName ? 'Copied!' : 'Copy Errors'}
+                        </button>
+                        <button
+                          onClick={(e) => handleDownloadErrors(e, item)}
+                          className="px-2 py-0.5 bg-red-50 hover:bg-red-100 text-red-700 rounded text-[11px] font-medium border border-red-200 transition-all cursor-pointer"
+                        >
+                          Download Errors (.txt)
+                        </button>
+                      </div>
+                    )}
+                    <span className="font-mono text-slate-500">{item.result?.summary?.totalFeatures ?? 0} features</span>
                     <span className="text-slate-400">{isExpanded ? '▲' : '▼'}</span>
                   </div>
                 </div>
@@ -133,7 +232,27 @@ export const ValidationView: React.FC<ValidationViewProps> = ({ validations }) =
                         All GeoJSON specs and EUDR property rules passed cleanly.
                       </div>
                     ) : (
-                      <div className="space-y-2">
+                      <div className="space-y-3">
+                        <div className="flex items-center justify-between pt-1 pb-1">
+                          <span className="text-[11px] font-semibold text-red-800 uppercase tracking-wider">
+                            Validation Failures ({errorCount})
+                          </span>
+                          <div className="flex items-center gap-2">
+                            <button
+                              onClick={(e) => handleCopyErrors(e, item)}
+                              className="px-2.5 py-1 bg-white hover:bg-slate-50 text-slate-700 rounded-md text-xs font-medium border border-slate-300 transition-all cursor-pointer shadow-2xs"
+                            >
+                              {copiedFile === item.fileName ? 'Copied to Clipboard!' : 'Copy Errors Text'}
+                            </button>
+                            <button
+                              onClick={(e) => handleDownloadErrors(e, item)}
+                              className="px-2.5 py-1 bg-red-600 hover:bg-red-700 text-white rounded-md text-xs font-medium transition-all cursor-pointer shadow-2xs"
+                            >
+                              Download Errors (.txt)
+                            </button>
+                          </div>
+                        </div>
+
                         {item.rawError ? (
                           <div className="p-3 bg-red-50/60 border border-red-200/80 rounded-lg text-xs text-red-900">
                             {item.rawError}
@@ -142,7 +261,7 @@ export const ValidationView: React.FC<ValidationViewProps> = ({ validations }) =
                           item.result.errors.map((err, idx) => (
                             <div
                               key={idx}
-                              className="p-3 bg-white border border-red-200/90 rounded-lg text-xs space-y-1"
+                              className="p-3 bg-white border border-red-200/90 rounded-lg text-xs space-y-1 shadow-2xs"
                             >
                               <div className="flex items-center justify-between text-slate-700">
                                 <span className="font-mono text-red-700 font-semibold">
@@ -170,3 +289,4 @@ export const ValidationView: React.FC<ValidationViewProps> = ({ validations }) =
     </div>
   );
 };
+
