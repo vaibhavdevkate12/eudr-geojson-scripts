@@ -161,10 +161,6 @@ export default function Home() {
           <div className="flex items-center gap-3 text-xs">
             <CurrencyBar inrRate={inrRate} onRateChange={(rate) => setInrRate(rate)} />
 
-            <div className="hidden sm:flex items-center text-slate-500 font-mono text-[11px] bg-slate-100/70 px-2.5 py-1 rounded-md">
-              <span>Session: {remainingTimeStr}</span>
-            </div>
-
             <span className="hidden md:inline text-slate-500 text-[11px] font-medium">
               {sessionUser}
             </span>
@@ -237,7 +233,7 @@ export default function Home() {
       <footer className="border-t border-slate-200/60 bg-white py-4 text-center text-[11px] text-slate-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-2">
           <span>Emertech Innovations • EUDR Deforestation Traceability System</span>
-          <span>2-Hour Auto Logout Active</span>
+          <span>v1.2.0 • Production</span>
         </div>
       </footer>
     </div>

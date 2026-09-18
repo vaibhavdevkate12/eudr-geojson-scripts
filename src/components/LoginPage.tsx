@@ -131,7 +131,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
           </form>
 
           <div className="mt-6 pt-5 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400">
-            <span>2-Hour Auto Logout Active</span>
+            <span>Emertech Security Portal</span>
             <span className="text-slate-500">v1.2.0 • Production</span>
           </div>
         </div>
