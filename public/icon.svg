@@ -1,35 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a" />
-      <stop offset="100%" stop-color="#064e3b" />
-    </linearGradient>
-    <linearGradient id="poly" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10b981" stop-opacity="0.5" />
-      <stop offset="100%" stop-color="#059669" stop-opacity="0.25" />
-    </linearGradient>
-  </defs>
-
-  <!-- Base Badge -->
-  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bg)" stroke="#10b981" stroke-width="3" />
-
-  <!-- Globe Latitude / Longitude Grid Lines -->
-  <circle cx="64" cy="64" r="46" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5" />
-  <ellipse cx="64" cy="64" rx="46" ry="20" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5" />
-  <line x1="18" y1="64" x2="110" y2="64" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5" />
-  <line x1="64" y1="18" x2="64" y2="110" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1.5" />
-
-  <!-- GeoJSON Polygon Boundary -->
-  <polygon points="36,32 92,28 104,72 68,100 24,76" fill="url(#poly)" stroke="#34d399" stroke-width="5" stroke-linejoin="round" />
-
-  <!-- Polygon Coordinate Vertices / Nodes -->
-  <circle cx="36" cy="32" r="7" fill="#ffffff" stroke="#059669" stroke-width="3" />
-  <circle cx="92" cy="28" r="7" fill="#ffffff" stroke="#059669" stroke-width="3" />
-  <circle cx="104" cy="72" r="7" fill="#ffffff" stroke="#059669" stroke-width="3" />
-  <circle cx="68" cy="100" r="7" fill="#ffffff" stroke="#059669" stroke-width="3" />
-  <circle cx="24" cy="76" r="7" fill="#ffffff" stroke="#059669" stroke-width="3" />
-
-  <!-- Center Map Location Pin Marker -->
-  <path d="M64 40 C55 40 48 47 48 56 C48 68 64 84 64 84 C64 84 80 68 80 56 C80 47 73 40 64 40 Z" fill="#ef4444" stroke="#ffffff" stroke-width="2.5" />
-  <circle cx="64" cy="55" r="5" fill="#ffffff" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
+  <!-- Outer Light Green Circle -->
+  <circle cx="32" cy="32" r="28" fill="#ecfdf5" stroke="#10b981" stroke-width="3.5" />
+  
+  <!-- Inner Red Location Pin Shape -->
+  <path d="M32 14 C24.268 14 18 20.268 18 28 C18 38.5 32 50 32 50 C32 50 46 38.5 46 28 C46 20.268 39.732 14 32 14 Z" fill="#ef4444" />
+  <!-- Location Pin Inner Dot -->
+  <circle cx="32" cy="27" r="4" fill="#ffffff" />
 </svg>
