@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { CircleDollarSign } from 'lucide-react';
+import { ArrowRightLeft } from 'lucide-react';
 
 interface CurrencyBarProps {
   inrRate: number;
@@ -10,14 +10,14 @@ interface CurrencyBarProps {
 
 export const CurrencyBar: React.FC<CurrencyBarProps> = ({ inrRate, onRateChange }) => {
   return (
-    <div className="flex items-center gap-2 bg-emerald-50/80 border border-emerald-200/80 rounded-xl px-3 py-1.5 shadow-sm">
-      <div className="flex items-center gap-1.5 text-xs text-emerald-900 font-medium">
-        <CircleDollarSign className="w-4 h-4 text-emerald-600 shrink-0" />
+    <div className="flex items-center gap-2 bg-slate-50 border border-slate-200/80 rounded-xl px-3 py-1.5 shadow-xs">
+      <div className="flex items-center gap-1.5 text-xs text-slate-600 font-medium">
+        <ArrowRightLeft className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
         <span>1 EUR (€) =</span>
       </div>
 
-      <div className="flex items-center bg-white border border-emerald-300 rounded-lg px-2 py-0.5 shadow-inner">
-        <span className="text-amber-600 font-bold text-xs mr-0.5">₹</span>
+      <div className="flex items-center bg-white border border-slate-300 rounded-lg px-2 py-0.5">
+        <span className="text-amber-700 font-semibold text-xs mr-0.5">₹</span>
         <input
           type="number"
           step="0.1"
@@ -28,9 +28,9 @@ export const CurrencyBar: React.FC<CurrencyBarProps> = ({ inrRate, onRateChange 
               onRateChange(val);
             }
           }}
-          className="w-16 bg-transparent font-bold text-slate-800 text-xs text-right focus:outline-none font-mono"
+          className="w-14 bg-transparent font-mono font-semibold text-slate-900 text-xs text-right focus:outline-none"
         />
-        <span className="text-[10px] text-slate-500 font-semibold ml-1">INR</span>
+        <span className="text-[10px] text-slate-400 font-medium ml-1">INR</span>
       </div>
     </div>
   );

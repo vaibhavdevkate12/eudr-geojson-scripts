@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Mail, KeyRound, ShieldCheck, Eye, EyeOff, AlertCircle, Clock } from 'lucide-react';
+import { Mail, Lock, Eye, EyeOff, ShieldCheck, Clock, ArrowRight } from 'lucide-react';
 
 interface LoginPageProps {
   onAuthenticated: () => void;
@@ -22,125 +22,139 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
       setErrorMsg('');
       onAuthenticated();
     } else if (cleanEmail !== 'info@emertech.io' && password !== 'passwoRd') {
-      setErrorMsg('Invalid email and password. Please check your credentials.');
+      setErrorMsg('Invalid email address and password. Please check your credentials.');
     } else if (cleanEmail !== 'info@emertech.io') {
-      setErrorMsg('Invalid email address. Authorized email is required.');
+      setErrorMsg('Unauthorized email address. Only registered organization emails are permitted.');
     } else {
-      setErrorMsg('Incorrect password. Please try again.');
+      setErrorMsg('Incorrect password. Please verify your password and try again.');
     }
   };
 
   return (
-    <div className="min-h-screen bg-slate-100 text-slate-900 flex items-center justify-center p-4 font-sans">
-      <div className="w-full max-w-md bg-white border border-slate-200 rounded-3xl shadow-xl p-8">
-        <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center p-3.5 rounded-2xl bg-slate-50 border border-slate-200 shadow-xs mb-4">
-            <img
-              src="/emertech-logo.svg"
-              alt="Emertech Innovations"
-              className="h-10 w-auto object-contain"
-            />
-          </div>
-          <h1 className="text-2xl font-bold text-slate-900">
-            EUDR GeoJSON Portal
-          </h1>
-          <p className="text-xs text-slate-500 mt-1.5">
-            Sign in to access verification & token calculation tools
-          </p>
+    <div className="min-h-screen bg-slate-50 flex flex-col justify-between p-6 font-sans text-slate-900">
+      {/* Top Brand Header */}
+      <header className="max-w-6xl mx-auto w-full flex items-center justify-between py-2">
+        <div className="flex items-center gap-3">
+          <img
+            src="/emertech-logo.svg"
+            alt="Emertech Innovations"
+            className="h-9 w-auto object-contain"
+          />
         </div>
+        <div className="hidden sm:flex items-center gap-2 text-xs text-slate-500 font-medium">
+          <ShieldCheck className="w-4 h-4 text-emerald-600" />
+          <span>EUDR Deforestation Compliance System</span>
+        </div>
+      </header>
 
-        {/* Session Expired Banner Notice */}
-        {sessionExpiredNotice && (
-          <div className="mb-6 p-3.5 bg-amber-50 border border-amber-200 rounded-2xl text-xs text-amber-900 flex items-start gap-2.5">
-            <Clock className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
-            <div>
-              <span className="font-bold block">Session Expired (2 Hours)</span>
-              <span className="text-amber-800">{sessionExpiredNotice}</span>
-            </div>
+      {/* Main Login Card */}
+      <main className="w-full max-w-md mx-auto my-auto">
+        <div className="bg-white border border-slate-200/90 rounded-2xl shadow-xl shadow-slate-200/50 p-8">
+          <div className="text-left mb-6">
+            <h1 className="text-xl font-bold text-slate-900 tracking-tight">
+              Sign in to EUDR Portal
+            </h1>
+            <p className="text-xs text-slate-500 mt-1">
+              Enter your corporate credentials to access verification & token tools.
+            </p>
           </div>
-        )}
 
-        <form onSubmit={handleSubmit} className="space-y-5">
-          {/* Email Address */}
-          <div>
-            <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
-              Email Address
-            </label>
-            <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
-                <Mail className="w-5 h-5" />
+          {/* Session Expired Banner Notice */}
+          {sessionExpiredNotice && (
+            <div className="mb-6 p-3.5 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-900 flex items-start gap-2.5">
+              <Clock className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+              <div>
+                <span className="font-semibold block">Session Timeout (2 Hours)</span>
+                <span className="text-amber-800">{sessionExpiredNotice}</span>
               </div>
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                  setErrorMsg('');
-                }}
-                placeholder="info@emertech.io"
-                className={`w-full pl-11 pr-4 py-3 bg-slate-50 border ${
-                  errorMsg ? 'border-red-400 focus:ring-red-500' : 'border-slate-300 focus:ring-emerald-500'
-                } rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:border-transparent text-sm transition-all`}
-                autoFocus
-              />
-            </div>
-          </div>
-
-          {/* Password */}
-          <div>
-            <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
-              Password
-            </label>
-            <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
-                <KeyRound className="w-5 h-5" />
-              </div>
-              <input
-                type={showPassword ? 'text' : 'password'}
-                value={password}
-                onChange={(e) => {
-                  setPassword(e.target.value);
-                  setErrorMsg('');
-                }}
-                placeholder="Enter password..."
-                className={`w-full pl-11 pr-11 py-3 bg-slate-50 border ${
-                  errorMsg ? 'border-red-400 focus:ring-red-500' : 'border-slate-300 focus:ring-emerald-500'
-                } rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:border-transparent text-sm transition-all`}
-              />
-              <button
-                type="button"
-                onClick={() => setShowPassword(!showPassword)}
-                className="absolute inset-y-0 right-0 pr-3.5 flex items-center text-slate-400 hover:text-slate-600 transition-colors"
-              >
-                {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
-              </button>
-            </div>
-          </div>
-
-          {/* Error Message Alert */}
-          {errorMsg && (
-            <div className="flex items-center gap-2 p-3 bg-red-50 border border-red-200 rounded-xl text-xs text-red-700 font-medium">
-              <AlertCircle className="w-4 h-4 shrink-0 text-red-600" />
-              <span>{errorMsg}</span>
             </div>
           )}
 
-          {/* Submit Button */}
-          <button
-            type="submit"
-            className="w-full py-3.5 px-4 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-md shadow-emerald-600/20 hover:shadow-emerald-600/30 transition-all flex items-center justify-center gap-2 text-sm mt-2"
-          >
-            <ShieldCheck className="w-5 h-5" />
-            <span>Sign In to System</span>
-          </button>
-        </form>
+          <form onSubmit={handleSubmit} className="space-y-4">
+            {/* Email Address */}
+            <div>
+              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                Work Email Address
+              </label>
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                  <Mail className="w-4 h-4" />
+                </div>
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    setErrorMsg('');
+                  }}
+                  placeholder="info@emertech.io"
+                  className={`w-full pl-10 pr-3.5 py-2.5 bg-slate-50/50 border ${
+                    errorMsg ? 'border-red-400 focus:ring-red-500' : 'border-slate-200 focus:ring-emerald-600'
+                  } rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:bg-white text-xs transition-all`}
+                  autoFocus
+                />
+              </div>
+            </div>
 
-        <div className="mt-8 pt-6 border-t border-slate-100 text-center">
-          <p className="text-xs text-slate-400">
-            Emertech Innovations • EUDR Compliance System
-          </p>
+            {/* Password */}
+            <div>
+              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                Password
+              </label>
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                  <Lock className="w-4 h-4" />
+                </div>
+                <input
+                  type={showPassword ? 'text' : 'password'}
+                  value={password}
+                  onChange={(e) => {
+                    setPassword(e.target.value);
+                    setErrorMsg('');
+                  }}
+                  placeholder="••••••••••••"
+                  className={`w-full pl-10 pr-10 py-2.5 bg-slate-50/50 border ${
+                    errorMsg ? 'border-red-400 focus:ring-red-500' : 'border-slate-200 focus:ring-emerald-600'
+                  } rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:bg-white text-xs transition-all`}
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute inset-y-0 right-0 pr-3.5 flex items-center text-slate-400 hover:text-slate-600 transition-colors"
+                >
+                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                </button>
+              </div>
+            </div>
+
+            {/* Error Message Alert */}
+            {errorMsg && (
+              <div className="p-3 bg-red-50 border border-red-200 rounded-xl text-xs text-red-700 font-medium">
+                {errorMsg}
+              </div>
+            )}
+
+            {/* Submit Button */}
+            <button
+              type="submit"
+              className="w-full py-2.5 px-4 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-medium rounded-xl shadow-xs transition-all flex items-center justify-center gap-2 text-xs mt-2 cursor-pointer"
+            >
+              <span>Continue to Workbench</span>
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          </form>
+
+          <div className="mt-6 pt-5 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400">
+            <span>2-Hour Auto Logout Active</span>
+            <span className="text-slate-500">v1.2.0 • Production</span>
+          </div>
         </div>
-      </div>
+      </main>
+
+      {/* Footer */}
+      <footer className="max-w-6xl mx-auto w-full text-center py-2 text-xs text-slate-400">
+        © {new Date().getFullYear()} Emertech Innovations. All rights reserved.
+      </footer>
     </div>
   );
 };
