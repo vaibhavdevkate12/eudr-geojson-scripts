@@ -243,9 +243,9 @@ export const CalculationView: React.FC<CalculationViewProps> = ({ report, inrRat
                   <td className="py-2 px-3.5 text-right text-slate-700">{entry.declaredAreaHa.toFixed(4)} ha</td>
                   <td className="py-2 px-3.5 text-right font-semibold text-emerald-700">{entry.calculatedAreaHa.toFixed(4)} ha</td>
                   <td className="py-2 px-3.5 text-right font-bold text-slate-900">{entry.calculatedTokens}</td>
-                  <td className="py-2 px-3.5 text-right text-amber-700 font-semibold">€{entry.calculatedTokens.toFixed(2)}</td>
+                  <td className="py-2 px-3.5 text-right text-amber-700 font-semibold">€{entry.calculatedTokens.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</td>
                   <td className="py-2 px-3.5 text-right text-emerald-700 font-bold">
-                    ₹{(entry.calculatedTokens * inrRate).toFixed(2)}
+                    ₹{(entry.calculatedTokens * inrRate).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                   </td>
                 </tr>
               ))}
