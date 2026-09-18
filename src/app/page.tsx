@@ -167,7 +167,7 @@ export default function Home() {
 
             <button
               onClick={() => clearSession()}
-              className="text-slate-500 hover:text-slate-900 font-medium transition-colors text-xs cursor-pointer ml-1"
+              className="px-2.5 py-1 text-red-600 hover:text-red-700 bg-red-50 hover:bg-red-100/80 border border-red-200/80 rounded-md text-xs font-semibold transition-all cursor-pointer ml-1"
             >
               Sign out
             </button>
