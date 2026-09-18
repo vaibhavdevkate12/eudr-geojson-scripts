@@ -78,7 +78,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
                   setEmail(e.target.value);
                   setErrorMsg('');
                 }}
-                placeholder="info@emertech.io"
+                placeholder="name@company.com"
                 className={`w-full px-3.5 py-2.5 bg-slate-50/50 border ${
                   errorMsg ? 'border-red-400 focus:ring-red-500' : 'border-slate-200 focus:ring-emerald-600'
                 } rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:bg-white text-xs transition-all`}
