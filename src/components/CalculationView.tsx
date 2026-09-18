@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import { CalculationReport, CategorySummary } from '../utils/calculationEngine';
-import { Layers, Search, MapPin, Hexagon, Download, Calculator } from 'lucide-react';
 
 interface CalculationViewProps {
   report: CalculationReport;
@@ -42,8 +41,7 @@ export const CalculationView: React.FC<CalculationViewProps> = ({ report, inrRat
       {/* Deduplication Mode Toggle */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs">
         <div>
-          <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider flex items-center gap-2">
-            <Layers className="w-4 h-4 text-emerald-600" />
+          <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
             Deduplication Analysis Mode
           </h3>
           <p className="text-xs text-slate-500 mt-0.5">
@@ -175,17 +173,11 @@ export const CalculationView: React.FC<CalculationViewProps> = ({ report, inrRat
           <div className="text-lg font-bold text-slate-900 mt-0.5">{activeCategory.totalUniqueFeatures}</div>
         </div>
         <div>
-          <div className="text-slate-500 font-medium flex items-center gap-1">
-            <MapPin className="w-3.5 h-3.5 text-blue-600" />
-            Point Features
-          </div>
+          <div className="text-slate-500 font-medium">Point Features</div>
           <div className="text-lg font-bold text-blue-600 mt-0.5">{activeCategory.pointCount}</div>
         </div>
         <div>
-          <div className="text-slate-500 font-medium flex items-center gap-1">
-            <Hexagon className="w-3.5 h-3.5 text-emerald-600" />
-            Polygon Features
-          </div>
+          <div className="text-slate-500 font-medium">Polygon Features</div>
           <div className="text-lg font-bold text-emerald-600 mt-0.5">{activeCategory.polygonCount}</div>
         </div>
         <div>
@@ -198,8 +190,7 @@ export const CalculationView: React.FC<CalculationViewProps> = ({ report, inrRat
       <div className="bg-white border border-slate-200/90 rounded-2xl overflow-hidden shadow-xs">
         <div className="p-4 bg-slate-50/60 border-b border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider flex items-center gap-1.5">
-              <Calculator className="w-4 h-4 text-emerald-600" />
+            <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider">
               Unique Feature Breakdown Table
             </h3>
             <span className="text-xs text-slate-500">({filteredEntries.length} items)</span>
@@ -207,21 +198,19 @@ export const CalculationView: React.FC<CalculationViewProps> = ({ report, inrRat
 
           <div className="flex items-center gap-2.5 w-full sm:w-auto">
             <div className="relative flex-1 sm:w-60">
-              <Search className="w-3.5 h-3.5 absolute left-3 top-2.5 text-slate-400" />
               <input
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Search file, type..."
-                className="w-full pl-8 pr-3 py-1.5 bg-white border border-slate-300 rounded-xl text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-emerald-600"
+                className="w-full px-3 py-1.5 bg-white border border-slate-300 rounded-xl text-xs text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-emerald-600"
               />
             </div>
 
             <button
               onClick={exportReport}
-              className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-900 hover:bg-slate-800 text-white text-xs font-medium rounded-xl shadow-xs transition-all shrink-0 cursor-pointer"
+              className="px-3.5 py-1.5 bg-slate-900 hover:bg-slate-800 text-white text-xs font-medium rounded-xl shadow-xs transition-all shrink-0 cursor-pointer"
             >
-              <Download className="w-3.5 h-3.5" />
               Export JSON
             </button>
           </div>
@@ -267,3 +256,4 @@ export const CalculationView: React.FC<CalculationViewProps> = ({ report, inrRat
     </div>
   );
 };
+

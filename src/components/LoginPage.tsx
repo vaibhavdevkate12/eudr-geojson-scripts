@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Mail, Lock, Eye, EyeOff, ShieldCheck, Clock, ArrowRight } from 'lucide-react';
 
 interface LoginPageProps {
   onAuthenticated: () => void;
@@ -42,7 +41,6 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
           />
         </div>
         <div className="hidden sm:flex items-center gap-2 text-xs text-slate-500 font-medium">
-          <ShieldCheck className="w-4 h-4 text-emerald-600" />
           <span>EUDR Deforestation Compliance System</span>
         </div>
       </header>
@@ -61,12 +59,9 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
 
           {/* Session Expired Banner Notice */}
           {sessionExpiredNotice && (
-            <div className="mb-6 p-3.5 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-900 flex items-start gap-2.5">
-              <Clock className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
-              <div>
-                <span className="font-semibold block">Session Timeout (2 Hours)</span>
-                <span className="text-amber-800">{sessionExpiredNotice}</span>
-              </div>
+            <div className="mb-6 p-3.5 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-900">
+              <span className="font-semibold block">Session Timeout (2 Hours)</span>
+              <span className="text-amber-800">{sessionExpiredNotice}</span>
             </div>
           )}
 
@@ -76,24 +71,19 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
               <label className="block text-xs font-semibold text-slate-700 mb-1.5">
                 Work Email Address
               </label>
-              <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
-                  <Mail className="w-4 h-4" />
-                </div>
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => {
-                    setEmail(e.target.value);
-                    setErrorMsg('');
-                  }}
-                  placeholder="info@emertech.io"
-                  className={`w-full pl-10 pr-3.5 py-2.5 bg-slate-50/50 border ${
-                    errorMsg ? 'border-red-400 focus:ring-red-500' : 'border-slate-200 focus:ring-emerald-600'
-                  } rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:bg-white text-xs transition-all`}
-                  autoFocus
-                />
-              </div>
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                  setErrorMsg('');
+                }}
+                placeholder="info@emertech.io"
+                className={`w-full px-3.5 py-2.5 bg-slate-50/50 border ${
+                  errorMsg ? 'border-red-400 focus:ring-red-500' : 'border-slate-200 focus:ring-emerald-600'
+                } rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:bg-white text-xs transition-all`}
+                autoFocus
+              />
             </div>
 
             {/* Password */}
@@ -102,9 +92,6 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
                 Password
               </label>
               <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
-                  <Lock className="w-4 h-4" />
-                </div>
                 <input
                   type={showPassword ? 'text' : 'password'}
                   value={password}
@@ -113,16 +100,16 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
                     setErrorMsg('');
                   }}
                   placeholder="••••••••••••"
-                  className={`w-full pl-10 pr-10 py-2.5 bg-slate-50/50 border ${
+                  className={`w-full pl-3.5 pr-16 py-2.5 bg-slate-50/50 border ${
                     errorMsg ? 'border-red-400 focus:ring-red-500' : 'border-slate-200 focus:ring-emerald-600'
                   } rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:bg-white text-xs transition-all`}
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute inset-y-0 right-0 pr-3.5 flex items-center text-slate-400 hover:text-slate-600 transition-colors"
+                  className="absolute inset-y-0 right-0 pr-3.5 flex items-center text-xs font-medium text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
                 >
-                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                  {showPassword ? 'Hide' : 'Show'}
                 </button>
               </div>
             </div>
@@ -137,10 +124,9 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full py-2.5 px-4 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-medium rounded-xl shadow-xs transition-all flex items-center justify-center gap-2 text-xs mt-2 cursor-pointer"
+              className="w-full py-2.5 px-4 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-medium rounded-xl shadow-xs transition-all text-xs mt-2 cursor-pointer"
             >
-              <span>Continue to Workbench</span>
-              <ArrowRight className="w-4 h-4" />
+              Sign In
             </button>
           </form>
 
@@ -158,3 +144,4 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
     </div>
   );
 };
+

@@ -9,9 +9,8 @@ import { ValidationView, FileValidationItem } from '../components/ValidationView
 import { CalculationView } from '../components/CalculationView';
 import { validateGeoJSON } from '../utils/geojsonValidator';
 import { runCalculation, FileInputData } from '../utils/calculationEngine';
-import { Calculator, CheckCircle2, LogOut, Clock, User, ShieldCheck } from 'lucide-react';
 
-const SESSION_DURATION_MS = 2 * 60 * 60 * 1000; // 2 Hours in milliseconds
+const SESSION_DURATION_MS = 2 * 60 * 60 * 1000;
 const STORAGE_AUTH_KEY = 'eudr_session_auth';
 const STORAGE_TIMESTAMP_KEY = 'eudr_session_timestamp';
 const STORAGE_USER_KEY = 'eudr_session_user';
@@ -27,7 +26,6 @@ export default function Home() {
   const [inrRate, setInrRate] = useState<number>(110);
   const [activeTab, setActiveTab] = useState<'validation' | 'calculation'>('validation');
 
-  // Ensure client-side mounting to avoid hydration mismatch
   useEffect(() => {
     setIsMounted(true);
 
@@ -48,7 +46,6 @@ export default function Home() {
     }
   }, []);
 
-  // Timer loop to check session expiry every 5 seconds and update remaining time
   useEffect(() => {
     if (!isAuthenticated || !isMounted) return;
 
@@ -106,7 +103,6 @@ export default function Home() {
     setFiles([]);
   };
 
-  // Compute file validations
   const fileValidations: FileValidationItem[] = useMemo(() => {
     return files.map((file) => {
       if (file.error) {
@@ -124,18 +120,14 @@ export default function Home() {
     });
   }, [files]);
 
-  // Compute calculation report
   const calculationReport = useMemo(() => {
     return runCalculation(files, inrRate);
   }, [files, inrRate]);
 
   if (!isMounted) {
     return (
-      <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
-        <div className="animate-pulse flex items-center gap-2 text-xs font-semibold text-slate-500">
-          <ShieldCheck className="w-4 h-4 text-emerald-600 animate-spin" />
-          <span>Loading EUDR Portal...</span>
-        </div>
+      <div className="min-h-screen bg-white flex items-center justify-center p-4">
+        <span className="text-xs text-slate-400 font-medium">Loading...</span>
       </div>
     );
   }
@@ -150,119 +142,105 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans p-4 sm:p-6 flex flex-col justify-between">
-      <div className="max-w-7xl mx-auto w-full space-y-6">
-        {/* Navbar / Top Bar */}
-        <header className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 bg-white border border-slate-200/90 rounded-2xl p-5 shadow-xs">
-          <div className="flex items-center gap-4">
-            <div className="p-2 rounded-xl bg-slate-50 border border-slate-200/80 shrink-0">
-              <img
-                src="/emertech-logo.svg"
-                alt="Emertech Innovations"
-                className="h-8 w-auto object-contain"
-              />
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <h1 className="text-base sm:text-lg font-bold text-slate-900 tracking-tight">
-                  EUDR GeoJSON Compliance Portal
-                </h1>
-                <span className="hidden sm:inline-flex items-center gap-1 text-[10px] font-semibold bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded-full border border-emerald-200/80">
-                  <ShieldCheck className="w-3 h-3 text-emerald-600" />
-                  Verified
-                </span>
-              </div>
-              <p className="text-xs text-slate-500 mt-0.5">
-                Automated GeoJSON validation, 6-decimal vertex deduplication & token estimation
-              </p>
-            </div>
+    <div className="min-h-screen bg-slate-50/60 text-slate-900 font-sans flex flex-col justify-between selection:bg-slate-900 selection:text-white">
+      {/* Top Navbar */}
+      <header className="bg-white border-b border-slate-200/80 sticky top-0 z-30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <img
+              src="/emertech-logo.svg"
+              alt="Emertech Innovations"
+              className="h-7 w-auto object-contain"
+            />
+            <span className="text-slate-300 text-sm font-light">/</span>
+            <span className="text-xs font-semibold text-slate-800 tracking-tight">
+              EUDR GeoJSON Portal
+            </span>
           </div>
 
-          {/* Right Header Controls */}
-          <div className="flex flex-wrap items-center gap-2.5 w-full md:w-auto justify-end">
-            {/* Currency Input */}
+          <div className="flex items-center gap-3 text-xs">
             <CurrencyBar inrRate={inrRate} onRateChange={(rate) => setInrRate(rate)} />
 
-            {/* Session Timer Badge */}
-            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-100/80 border border-slate-200/80 rounded-xl text-xs text-slate-700 font-mono">
-              <Clock className="w-3.5 h-3.5 text-slate-500" />
-              <span>{remainingTimeStr}</span>
+            <div className="hidden sm:flex items-center text-slate-500 font-mono text-[11px] bg-slate-100/70 px-2.5 py-1 rounded-md">
+              <span>Session: {remainingTimeStr}</span>
             </div>
 
-            {/* User Profile Badge */}
-            <div className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-50 border border-slate-200/80 rounded-xl text-xs text-slate-700 font-medium">
-              <User className="w-3.5 h-3.5 text-slate-400" />
-              <span className="hidden sm:inline">{sessionUser}</span>
-            </div>
+            <span className="hidden md:inline text-slate-500 text-[11px] font-medium">
+              {sessionUser}
+            </span>
 
-            {/* Logout */}
             <button
               onClick={() => clearSession()}
-              className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-100 hover:bg-red-50 text-slate-700 hover:text-red-600 border border-slate-200 hover:border-red-200 rounded-xl text-xs font-medium transition-all cursor-pointer"
-              title="Sign Out"
+              className="text-slate-500 hover:text-slate-900 font-medium transition-colors text-xs cursor-pointer ml-1"
             >
-              <LogOut className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Sign Out</span>
+              Sign out
             </button>
           </div>
-        </header>
-
-        {/* 2-Column Workbench Layout */}
-        <div className="flex flex-col lg:flex-row items-start gap-6">
-          {/* Left Sidebar: Verification Rules Documentation */}
-          <RulesPanel />
-
-          {/* Right Workspace Main Content */}
-          <main className="flex-1 w-full space-y-5">
-            {/* File Upload Workbench */}
-            <FileUploader files={files} onFilesLoaded={handleFilesLoaded} onClear={handleClear} />
-
-            {/* Step Tabs & Workspace Results */}
-            {files.length > 0 && (
-              <div className="space-y-5">
-                <div className="flex items-center gap-2 border-b border-slate-200 pb-2">
-                  <button
-                    onClick={() => setActiveTab('validation')}
-                    className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                      activeTab === 'validation'
-                        ? 'bg-emerald-600 text-white shadow-xs'
-                        : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200'
-                    }`}
-                  >
-                    <CheckCircle2 className="w-4 h-4" />
-                    Step 1: File Validation ({fileValidations.length})
-                  </button>
-
-                  <button
-                    onClick={() => setActiveTab('calculation')}
-                    className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
-                      activeTab === 'calculation'
-                        ? 'bg-emerald-600 text-white shadow-xs'
-                        : 'bg-white text-slate-600 hover:text-slate-900 border border-slate-200'
-                    }`}
-                  >
-                    <Calculator className="w-4 h-4" />
-                    Step 2: Token & Cost Calculation
-                  </button>
-                </div>
-
-                {/* Active Workbench Tab */}
-                {activeTab === 'validation' ? (
-                  <ValidationView validations={fileValidations} />
-                ) : (
-                  <CalculationView report={calculationReport} inrRate={inrRate} />
-                )}
-              </div>
-            )}
-          </main>
         </div>
-      </div>
+      </header>
 
-      {/* Footer */}
-      <footer className="max-w-7xl mx-auto w-full text-center py-4 mt-8 text-xs text-slate-400 border-t border-slate-200/60 flex flex-col sm:flex-row items-center justify-between gap-2">
-        <span>Emertech Innovations • EUDR Deforestation Traceability System</span>
-        <span>2-Hour Session Security Active</span>
+      {/* Main Workspace */}
+      <main className="max-w-7xl mx-auto w-full px-4 sm:px-6 py-8 flex-1 space-y-6">
+        {/* Workspace Hero Uploader & Rules */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+          {/* Main Dropzone Uploader (2 Columns) */}
+          <div className="lg:col-span-2">
+            <FileUploader files={files} onFilesLoaded={handleFilesLoaded} onClear={handleClear} />
+          </div>
+
+          {/* Rules Reference Panel (1 Column) */}
+          <div>
+            <RulesPanel />
+          </div>
+        </div>
+
+        {/* Results Workspace Tabs */}
+        {files.length > 0 && (
+          <div className="pt-4 space-y-6">
+            <div className="flex items-center gap-1 border-b border-slate-200 pb-0 text-xs font-medium">
+              <button
+                onClick={() => setActiveTab('validation')}
+                className={`pb-2.5 px-4 border-b-2 transition-all cursor-pointer ${
+                  activeTab === 'validation'
+                    ? 'border-slate-900 text-slate-900 font-semibold'
+                    : 'border-transparent text-slate-500 hover:text-slate-800'
+                }`}
+              >
+                Step 1: File Validation ({fileValidations.length})
+              </button>
+
+              <button
+                onClick={() => setActiveTab('calculation')}
+                className={`pb-2.5 px-4 border-b-2 transition-all cursor-pointer ${
+                  activeTab === 'calculation'
+                    ? 'border-slate-900 text-slate-900 font-semibold'
+                    : 'border-transparent text-slate-500 hover:text-slate-800'
+                }`}
+              >
+                Step 2: Token & Cost Estimation
+              </button>
+            </div>
+
+            {/* Active Workspace View */}
+            <div>
+              {activeTab === 'validation' ? (
+                <ValidationView validations={fileValidations} />
+              ) : (
+                <CalculationView report={calculationReport} inrRate={inrRate} />
+              )}
+            </div>
+          </div>
+        )}
+      </main>
+
+      {/* Clean Footer */}
+      <footer className="border-t border-slate-200/60 bg-white py-4 text-center text-[11px] text-slate-400">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <span>Emertech Innovations • EUDR Deforestation Traceability System</span>
+          <span>2-Hour Auto Logout Active</span>
+        </div>
       </footer>
     </div>
   );
 }
+

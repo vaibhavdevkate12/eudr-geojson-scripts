@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import { CheckCircle2, XCircle, ChevronDown, ChevronUp, FileText, Check, AlertCircle } from 'lucide-react';
 import { ValidationResult } from '../utils/geojsonValidator';
 
 export interface FileValidationItem {
@@ -38,62 +37,55 @@ export const ValidationView: React.FC<ValidationViewProps> = ({ validations }) =
     <div className="space-y-5 font-sans">
       {/* Summary Metrics Cards */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs">
+        <div className="bg-white border border-slate-200/90 rounded-xl p-4 shadow-2xs">
           <div className="text-xs text-slate-500 font-medium">Files Analyzed</div>
-          <div className="text-xl font-bold text-slate-900 mt-1">{totalFiles}</div>
+          <div className="text-xl font-semibold text-slate-900 mt-1">{totalFiles}</div>
         </div>
 
-        <div className="bg-emerald-50/50 border border-emerald-200/80 rounded-2xl p-4 shadow-xs">
-          <div className="text-xs text-emerald-800 font-semibold flex items-center gap-1.5">
-            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-            Passed Validation
-          </div>
-          <div className="text-xl font-bold text-emerald-700 mt-1">{passedFiles}</div>
+        <div className="bg-white border border-slate-200/90 rounded-xl p-4 shadow-2xs">
+          <div className="text-xs text-slate-500 font-medium">Passed Validation</div>
+          <div className="text-xl font-semibold text-emerald-700 mt-1">{passedFiles}</div>
         </div>
 
-        <div className="bg-red-50/50 border border-red-200/80 rounded-2xl p-4 shadow-xs">
-          <div className="text-xs text-red-800 font-semibold flex items-center gap-1.5">
-            <XCircle className="w-3.5 h-3.5 text-red-600" />
-            Failed Validation
-          </div>
-          <div className="text-xl font-bold text-red-700 mt-1">{failedFiles}</div>
+        <div className="bg-white border border-slate-200/90 rounded-xl p-4 shadow-2xs">
+          <div className="text-xs text-slate-500 font-medium">Failed Validation</div>
+          <div className="text-xl font-semibold text-red-700 mt-1">{failedFiles}</div>
         </div>
 
-        <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-xs">
-          <div className="text-xs text-slate-500 font-medium">Total Compliance Errors</div>
-          <div className="text-xl font-bold text-amber-700 mt-1">{totalErrors}</div>
+        <div className="bg-white border border-slate-200/90 rounded-xl p-4 shadow-2xs">
+          <div className="text-xs text-slate-500 font-medium">Total Errors</div>
+          <div className="text-xl font-semibold text-amber-700 mt-1">{totalErrors}</div>
         </div>
       </div>
 
       {/* Filter Bar & Detailed File Report List */}
-      <div className="bg-white border border-slate-200/90 rounded-2xl overflow-hidden shadow-xs">
+      <div className="bg-white border border-slate-200/90 rounded-xl overflow-hidden shadow-2xs">
         <div className="p-4 bg-slate-50/60 border-b border-slate-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-          <h3 className="text-xs font-bold text-slate-900 uppercase tracking-wider flex items-center gap-2">
-            <FileText className="w-4 h-4 text-emerald-600" />
-            File Validation Report Details
+          <h3 className="text-xs font-semibold text-slate-900 uppercase tracking-wider">
+            Validation Report Details
           </h3>
 
-          <div className="flex items-center gap-1 bg-slate-200/60 p-1 rounded-xl text-xs font-medium text-slate-600">
+          <div className="flex items-center gap-1 bg-slate-200/60 p-1 rounded-lg text-xs font-medium text-slate-600">
             <button
               onClick={() => setStatusFilter('all')}
-              className={`px-3 py-1 rounded-lg transition-all ${
-                statusFilter === 'all' ? 'bg-white text-slate-900 shadow-xs font-semibold' : 'hover:text-slate-900'
+              className={`px-3 py-1 rounded transition-all cursor-pointer ${
+                statusFilter === 'all' ? 'bg-white text-slate-900 shadow-2xs font-semibold' : 'hover:text-slate-900'
               }`}
             >
               All ({totalFiles})
             </button>
             <button
               onClick={() => setStatusFilter('pass')}
-              className={`px-3 py-1 rounded-lg transition-all ${
-                statusFilter === 'pass' ? 'bg-white text-emerald-700 shadow-xs font-semibold' : 'hover:text-slate-900'
+              className={`px-3 py-1 rounded transition-all cursor-pointer ${
+                statusFilter === 'pass' ? 'bg-white text-emerald-700 shadow-2xs font-semibold' : 'hover:text-slate-900'
               }`}
             >
               Passed ({passedFiles})
             </button>
             <button
               onClick={() => setStatusFilter('fail')}
-              className={`px-3 py-1 rounded-lg transition-all ${
-                statusFilter === 'fail' ? 'bg-white text-red-700 shadow-xs font-semibold' : 'hover:text-slate-900'
+              className={`px-3 py-1 rounded transition-all cursor-pointer ${
+                statusFilter === 'fail' ? 'bg-white text-red-700 shadow-2xs font-semibold' : 'hover:text-slate-900'
               }`}
             >
               Failed ({failedFiles})
@@ -115,21 +107,21 @@ export const ValidationView: React.FC<ValidationViewProps> = ({ validations }) =
                 >
                   <div className="flex items-center gap-3 truncate">
                     {isValid ? (
-                      <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-emerald-100/80 text-emerald-800 border border-emerald-200 shrink-0">
-                        <Check className="w-3.5 h-3.5" /> PASS
+                      <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200/80 shrink-0">
+                        PASS
                       </span>
                     ) : (
-                      <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-red-100/80 text-red-800 border border-red-200 shrink-0">
-                        <XCircle className="w-3.5 h-3.5" /> FAIL ({errorCount} {errorCount === 1 ? 'error' : 'errors'})
+                      <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold bg-red-50 text-red-700 border border-red-200/80 shrink-0">
+                        FAIL ({errorCount})
                       </span>
                     )}
 
-                    <span className="font-mono text-xs font-semibold text-slate-800 truncate">{item.fileName}</span>
+                    <span className="font-mono text-xs font-medium text-slate-800 truncate">{item.fileName}</span>
                   </div>
 
                   <div className="flex items-center gap-4 text-xs text-slate-500 shrink-0">
                     <span className="font-mono">{item.result?.summary?.totalFeatures ?? 0} features</span>
-                    {isExpanded ? <ChevronUp className="w-4 h-4 text-slate-400" /> : <ChevronDown className="w-4 h-4 text-slate-400" />}
+                    <span className="text-slate-400">{isExpanded ? '▲' : '▼'}</span>
                   </div>
                 </div>
 
@@ -137,34 +129,32 @@ export const ValidationView: React.FC<ValidationViewProps> = ({ validations }) =
                 {isExpanded && (
                   <div className="px-6 pb-4 pt-1 bg-slate-50/50 border-t border-slate-100">
                     {isValid ? (
-                      <div className="p-3 bg-emerald-50/80 border border-emerald-200/80 rounded-xl text-xs text-emerald-900 flex items-center gap-2">
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                        <span>All GeoJSON specs and EUDR property rules passed cleanly!</span>
+                      <div className="p-3 bg-emerald-50/60 border border-emerald-200/80 rounded-lg text-xs text-emerald-900">
+                        All GeoJSON specs and EUDR property rules passed cleanly.
                       </div>
                     ) : (
                       <div className="space-y-2">
                         {item.rawError ? (
-                          <div className="p-3 bg-red-50/80 border border-red-200/80 rounded-xl text-xs text-red-900 flex items-center gap-2">
-                            <AlertCircle className="w-4 h-4 text-red-600 shrink-0" />
-                            <span>{item.rawError}</span>
+                          <div className="p-3 bg-red-50/60 border border-red-200/80 rounded-lg text-xs text-red-900">
+                            {item.rawError}
                           </div>
                         ) : (
                           item.result.errors.map((err, idx) => (
                             <div
                               key={idx}
-                              className="p-3 bg-white border border-red-200/90 rounded-xl text-xs space-y-1 shadow-xs"
+                              className="p-3 bg-white border border-red-200/90 rounded-lg text-xs space-y-1"
                             >
                               <div className="flex items-center justify-between text-slate-700">
-                                <span className="font-mono text-red-700 font-bold">
+                                <span className="font-mono text-red-700 font-semibold">
                                   Path: {err.path}
                                 </span>
                                 {err.featureIndex !== undefined && (
-                                  <span className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded font-mono font-medium">
+                                  <span className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded font-mono">
                                     Feature #{err.featureIndex}
                                   </span>
                                 )}
                               </div>
-                              <p className="text-slate-800 font-medium">{err.message}</p>
+                              <p className="text-slate-800">{err.message}</p>
                             </div>
                           ))
                         )}
