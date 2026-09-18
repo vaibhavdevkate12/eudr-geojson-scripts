@@ -30,36 +30,63 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col justify-between p-6 font-sans text-slate-900">
-      {/* Top Brand Header */}
-      <header className="max-w-6xl mx-auto w-full flex items-center justify-between py-2">
-        <div className="flex items-center gap-3">
-          <img
-            src="/emertech-logo.svg"
-            alt="Emertech Innovations"
-            className="h-9 w-auto object-contain"
-          />
-        </div>
-        <div className="hidden sm:flex items-center gap-2 text-xs text-slate-500 font-medium">
-          <span>EUDR Deforestation Compliance System</span>
-        </div>
-      </header>
+    <div className="min-h-screen grid grid-cols-1 md:grid-cols-12 bg-white font-sans text-slate-900">
+      {/* Left Column: Realistic EUDR Forest Image Panel */}
+      <div className="relative hidden md:flex md:col-span-6 lg:col-span-7 flex-col justify-between p-10 lg:p-14 bg-slate-950 overflow-hidden">
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-85"
+          style={{ backgroundImage: "url('/eudr-bg.png')" }}
+        />
 
-      {/* Main Login Card */}
-      <main className="w-full max-w-md mx-auto my-auto">
-        <div className="bg-white border border-slate-200/90 rounded-2xl shadow-xl shadow-slate-200/50 p-8">
-          <div className="text-left mb-6">
-            <h1 className="text-xl font-bold text-slate-900 tracking-tight">
+        {/* Subtle Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-slate-950/40" />
+
+        {/* Top Left Simple Professional Text */}
+        <div className="relative z-10">
+          <span className="text-xs font-semibold text-white/80 tracking-wider uppercase">
+            EUDR Compliance System
+          </span>
+        </div>
+
+        {/* Minimal Hero Text Box at Bottom */}
+        <div className="relative z-10 max-w-md space-y-1.5">
+          <h2 className="text-xl font-bold text-white tracking-tight">
+            Deforestation Traceability Portal
+          </h2>
+          <p className="text-xs text-slate-300 leading-relaxed font-normal">
+            Automated GeoJSON verification and satellite forest monitoring.
+          </p>
+        </div>
+      </div>
+
+      {/* Right Column: Login Form & Branding */}
+      <div className="md:col-span-6 lg:col-span-5 flex flex-col justify-between p-6 sm:p-10 lg:p-14 bg-white border-l border-slate-100">
+        {/* Brand Header */}
+        <div>
+          <div className="flex items-center gap-3">
+            <img
+              src="/emertech-logo.svg"
+              alt="Emertech Innovations"
+              className="h-9 w-auto object-contain"
+            />
+          </div>
+        </div>
+
+        {/* Main Login Form Container */}
+        <div className="w-full max-w-sm mx-auto my-auto py-8">
+          <div className="mb-6">
+            <h1 className="text-2xl font-bold text-slate-900 tracking-tight">
               Sign in to EUDR Portal
             </h1>
-            <p className="text-xs text-slate-500 mt-1">
+            <p className="text-xs text-slate-500 mt-1.5">
               Enter your corporate credentials to access verification & token tools.
             </p>
           </div>
 
           {/* Session Expired Banner Notice */}
           {sessionExpiredNotice && (
-            <div className="mb-6 p-3.5 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-900">
+            <div className="mb-6 p-3.5 bg-amber-50 border border-amber-200/90 rounded-xl text-xs text-amber-900">
               <span className="font-semibold block">Session Timeout (2 Hours)</span>
               <span className="text-amber-800">{sessionExpiredNotice}</span>
             </div>
@@ -79,7 +106,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
                   setErrorMsg('');
                 }}
                 placeholder="name@company.com"
-                className={`w-full px-3.5 py-2.5 bg-slate-50/50 border ${
+                className={`w-full px-3.5 py-2.5 bg-slate-50 border ${
                   errorMsg ? 'border-red-400 focus:ring-red-500' : 'border-slate-200 focus:ring-emerald-600'
                 } rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:bg-white text-xs transition-all`}
                 autoFocus
@@ -88,9 +115,11 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
 
             {/* Password */}
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
-                Password
-              </label>
+              <div className="flex items-center justify-between mb-1.5">
+                <label className="block text-xs font-semibold text-slate-700">
+                  Password
+                </label>
+              </div>
               <div className="relative">
                 <input
                   type={showPassword ? 'text' : 'password'}
@@ -100,7 +129,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
                     setErrorMsg('');
                   }}
                   placeholder="••••••••••••"
-                  className={`w-full pl-3.5 pr-16 py-2.5 bg-slate-50/50 border ${
+                  className={`w-full pl-3.5 pr-16 py-2.5 bg-slate-50 border ${
                     errorMsg ? 'border-red-400 focus:ring-red-500' : 'border-slate-200 focus:ring-emerald-600'
                   } rounded-xl text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:bg-white text-xs transition-all`}
                 />
@@ -124,24 +153,23 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionEx
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full py-2.5 px-4 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-medium rounded-xl shadow-xs transition-all text-xs mt-2 cursor-pointer"
+              className="w-full py-2.5 px-4 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-semibold rounded-xl shadow-xs transition-all text-xs mt-2 cursor-pointer"
             >
               Sign In
             </button>
           </form>
 
-          <div className="mt-6 pt-5 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400">
+          <div className="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between text-[11px] text-slate-400">
             <span>Emertech Security Portal</span>
             <span className="text-slate-500">v1.2.0 • Production</span>
           </div>
         </div>
-      </main>
 
-      {/* Footer */}
-      <footer className="max-w-6xl mx-auto w-full text-center py-2 text-xs text-slate-400">
-        © {new Date().getFullYear()} Emertech Innovations. All rights reserved.
-      </footer>
+        {/* Right Footer */}
+        <footer className="text-xs text-slate-400">
+          © {new Date().getFullYear()} Emertech Innovations. All rights reserved.
+        </footer>
+      </div>
     </div>
   );
 };
-
