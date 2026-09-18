@@ -1,13 +1,14 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Mail, KeyRound, ShieldCheck, Eye, EyeOff, AlertCircle } from 'lucide-react';
+import { Mail, KeyRound, ShieldCheck, Eye, EyeOff, AlertCircle, Clock } from 'lucide-react';
 
 interface LoginPageProps {
   onAuthenticated: () => void;
+  sessionExpiredNotice?: string;
 }
 
-export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated }) => {
+export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated, sessionExpiredNotice }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
@@ -47,6 +48,17 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onAuthenticated }) => {
             Sign in to access verification & token calculation tools
           </p>
         </div>
+
+        {/* Session Expired Banner Notice */}
+        {sessionExpiredNotice && (
+          <div className="mb-6 p-3.5 bg-amber-50 border border-amber-200 rounded-2xl text-xs text-amber-900 flex items-start gap-2.5">
+            <Clock className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+            <div>
+              <span className="font-bold block">Session Expired (2 Hours)</span>
+              <span className="text-amber-800">{sessionExpiredNotice}</span>
+            </div>
+          </div>
+        )}
 
         <form onSubmit={handleSubmit} className="space-y-5">
           {/* Email Address */}
