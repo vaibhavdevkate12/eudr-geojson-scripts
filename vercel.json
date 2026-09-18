@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm --prefix ui run build",
+  "outputDirectory": "ui/.next",
+  "installCommand": "npm --prefix ui install"
+}
