@@ -14,6 +14,7 @@ const SESSION_DURATION_MS = 2 * 60 * 60 * 1000;
 const STORAGE_AUTH_KEY = 'eudr_session_auth';
 const STORAGE_TIMESTAMP_KEY = 'eudr_session_timestamp';
 const STORAGE_USER_KEY = 'eudr_session_user';
+const DEFAULT_INR_RATE = 110.13; // 1 EUR = 1 / 0.00908 INR = 110.13
 
 export default function Home() {
   const [isMounted, setIsMounted] = useState(false);
@@ -23,11 +24,28 @@ export default function Home() {
   const [remainingTimeStr, setRemainingTimeStr] = useState<string>('2h 00m');
 
   const [files, setFiles] = useState<FileInputData[]>([]);
-  const [inrRate, setInrRate] = useState<number>(110);
+  const [inrRate, setInrRate] = useState<number>(DEFAULT_INR_RATE);
   const [activeTab, setActiveTab] = useState<'validation' | 'calculation'>('validation');
 
   useEffect(() => {
     setIsMounted(true);
+
+    // Fetch live currency rate from Frankfurter API
+    const fetchLiveRate = async () => {
+      try {
+        const res = await fetch('https://api.frankfurter.dev/v2/rate/inr/eur');
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.rate && typeof data.rate === 'number' && data.rate > 0) {
+            const calculatedInr = Math.round((1 / data.rate) * 100) / 100;
+            setInrRate(calculatedInr);
+          }
+        }
+      } catch {
+        // Fallback remains DEFAULT_INR_RATE (110.13)
+      }
+    };
+    fetchLiveRate();
 
     const authState = localStorage.getItem(STORAGE_AUTH_KEY);
     const loginTimeStr = localStorage.getItem(STORAGE_TIMESTAMP_KEY);
